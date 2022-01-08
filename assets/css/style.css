@@ -17,7 +17,7 @@ body {
     color: #333333;
 }
 
-/* headings and logo*/
+/* headings*/
 
 h1,
 h2,
@@ -28,29 +28,25 @@ h3 {
     color: #383838;
 }
 
-#logo {
-    float: left;
-    font-size: 270%;
-}
-
 /*navigation links*/
 
 #menu {
     font-size: 110%;
-    letter-spacing: 5px;
+    letter-spacing: 5px;            /*menu text styling*/
     display: flex;
-    justify-content: flex-end;  
-}
-
-#menu, 
-#logo {
-    line-height: 85px; 
+    justify-content: flex-end; 
+    height: 110px;
+    line-height: 85px;              /*menu text alignment*/
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
     margin-right: 30px;
+    display: inline;
+
+}
+
+#menu li:first-child {
+    margin-right: auto;
 }
 
 #menu a {
@@ -64,4 +60,25 @@ h3 {
 
 .active{
     border-bottom: 2px solid #383838;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #383838;
+    margin: 5px 0 2px 30px;
+    padding: 2px;
+}
+
+/* hero image*/
+
+.hero-image {
+    height: 1090px;
+    width: 100%;
+    background-image: url(../images/hero-image.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
