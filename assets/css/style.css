@@ -17,7 +17,7 @@ body {
     color: #333333;
 }
 
-/* headings*/
+/* Headings*/
 
 h1,
 h2,
@@ -28,38 +28,38 @@ h3 {
     color: #383838;
 }
 
-/*navigation links*/
+/*Navigation links*/
 
 #menu {
     font-size: 110%;
-    letter-spacing: 5px;            /*menu text styling*/
+    letter-spacing: 5px;                    /*menu text styling*/
     display: flex;
     justify-content: flex-end; 
     height: 110px;
-    line-height: 85px;              /*menu text alignment*/
+    line-height: 85px;                      /*menu text alignment*/
 }
 
 #menu li {
     margin-right: 30px;
-    display: inline;
-
+    display: inline;                        /*individual list item alignment*/
 }
 
 #menu li:first-child {
-    margin-right: auto;
+    margin-right: auto;                     /*logo image alignment*/
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;                         /*link styling*/
 }
 
 #menu a:hover {
-    font-weight: 800;
+    font-weight: 800;                       /*mouse over link style*/
 }
 
-.active{
-    border-bottom: 2px solid #383838;
+.active {
+    border-bottom: 2px solid #383838;      
+    font-size: 150%;                        /*selected link style*/
 }
 
 #logo {
@@ -68,7 +68,11 @@ h3 {
     border-radius: 100%;
     border: 2px solid #383838;
     margin: 5px 0 2px 30px;
-    padding: 2px;
+    padding: 2px;                           /*logo shape styling*/
+}
+
+#logo:hover {
+    transform: scale(1.1);
 }
 
 /* hero image*/
