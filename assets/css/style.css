@@ -21,8 +21,7 @@ body {
 /* Headings*/
 
 h1,
-h2,
-h3 {
+h2  {
     font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
     letter-spacing: 14px;
@@ -56,6 +55,9 @@ h3 {
 }
 
 #menu a:hover {
+    -webkit-transform: scale(1.3) !important;
+    -ms-transform: scale(1.3) !important;
+    transform: scale(1.3) !important;
     color: #ff581a;                       /*mouse over link style*/
 }
 
@@ -74,10 +76,11 @@ h3 {
 }
 
 #logo:hover {
-    -webkit-transform: scale(1.1);
+   -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); 
-    border-color: orange;                 /*mouse over zoom logo style*/    
+    border-color: orange;                 
+    box-shadow: inset 0 0 0 25px orange;    /*mouse over zoom logo style */
 }
 
 /*Hero image*/
@@ -190,7 +193,7 @@ h3 {
     position: relative;
 }
 
-.my-color {
+.accent-color {
     color: #ff581a;
 }
 
