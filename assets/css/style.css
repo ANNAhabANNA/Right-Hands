@@ -26,7 +26,7 @@ h3 {
     font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
     letter-spacing: 14px;
-    color: #383838;                         /*headings typography*/
+    color: whitesmoke;                         /*headings typography*/
 }
 
 /*Navigation links*/
@@ -186,9 +186,12 @@ h3 {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    color: #fff;
     transition: flex .4s ease;
     position: relative;
+}
+
+.my-color {
+    color: #ff581a;
 }
 
 .about-column .overlay {
