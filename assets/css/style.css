@@ -32,7 +32,8 @@ h3 {
 /*Navigation links*/
 
 #menu {
-    font-size: 110%;
+    font-size: 130%;
+    font-weight: 800;
     letter-spacing: 5px;                    /*menu text styling*/
     display: flex;
     justify-content: flex-end; 
@@ -55,12 +56,13 @@ h3 {
 }
 
 #menu a:hover {
-    font-weight: 800;                       /*mouse over link style*/
+    font-weight: 800;  
+    color: orange;                       /*mouse over link style*/
 }
 
 .active {
-    border-bottom: 2px solid #383838;      
-    font-size: 150%;                        /*selected link style*/
+    border-bottom: 2px solid orange;      
+    font-size: 150%;                       /*selected link style*/
 }
 
 #logo {
@@ -75,7 +77,8 @@ h3 {
 #logo:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);                /*mouse over zoom logo style*/    
+    transform: scale(1.1); 
+    border-color: orange;                 /*mouse over zoom logo style*/    
 }
 
 /* Hero image*/
