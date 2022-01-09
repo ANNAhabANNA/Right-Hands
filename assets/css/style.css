@@ -26,7 +26,7 @@ h3 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #383838;                         /*heading typography*/
+    color: #383838;                         /*headings typography*/
 }
 
 /*Navigation links*/
@@ -81,7 +81,7 @@ h3 {
     border-color: orange;                 /*mouse over zoom logo style*/    
 }
 
-/* Hero image*/
+/*Hero image*/
 
 .hero-outer {
     height: 1090px;
@@ -111,7 +111,7 @@ h3 {
     }
 }
 
-/* Cover text*/
+/*Cover text*/
 
 .cover-text {
     font-size: 150%;
@@ -120,8 +120,8 @@ h3 {
     letter-spacing: 4px;
     width: 1830px;
     height:  250px;
-    line-height: 2em;                             /*typography*/
-    padding-top: 40px;
+    line-height: 2.5em;                             /*typography*/
+    padding-top: 35px;
     padding-left: 50px;
     bottom: 60px;
     left: 80px;
@@ -131,4 +131,18 @@ h3 {
 .cover-text,
 .cover-text h1 {
     color: whitesmoke;                           /*typography*/
+}
+
+/*Action button*/
+
+#action-button {
+    background-color: rgb(38, 38, 38);
+    color: orange;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+#action-button:hover {
+    background-color: #ff581a;
+    color: black;
 }
