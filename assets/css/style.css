@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');
+
+/*General set-up*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans&display=swap');  /*font link import*/
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-}
-
-* {
+    box-sizing: border-box;                
     margin: 0;
     padding: 0;
-    border: none;
+    border: none;                           /*box model setting*/
 }
 
 body {
     font-family: Open Sans;
     font-weight: 300;
-    color: #333333;
+    color: #333333;                       /*typography setting*/
 }
 
 /* Headings*/
@@ -72,10 +73,10 @@ h3 {
 }
 
 #logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.1);                  /*mouse over logo style*/    
 }
 
-/* hero image*/
+/* Hero image*/
 
 .hero-image {
     height: 1090px;
