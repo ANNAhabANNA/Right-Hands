@@ -149,35 +149,11 @@ h2  {
     color: black;                              /*action button color transition*/
 }
 
-/*About us section*/
-
-/*.about-us {
-    height:1090px;
-}
-
-.left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
-}
-
-.right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
-}
-
-.center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
-}*/
+/* About us*/
 
 .about-us {
     display: flex;
-    height: 1090px;
+    height: 1090px;                             /*outer container of about-section modeling*/
 }
   
 .about-column {
@@ -186,15 +162,15 @@ h2  {
     justify-content: center;
     align-items: center;
     height: 100%;
-    overflow: hidden;
+    overflow: hidden;                           /*about-columns modeling*/
     background-size: cover;
     background-position: center;
     transition: flex .4s ease;
-    position: relative;
+    position: relative;                         /*about-columns styling and transition*/
 }
 
 .accent-color {
-    color: #ff581a;
+    color: #ff581a;                            /*accent-color adding to string text in headings*/
 }
 
 .about-column .overlay {
@@ -202,18 +178,18 @@ h2  {
     width: 100%;
     height: 100%;
     position: absolute;
-    transition: background-color .8s ease;
+    transition: background-color .8s ease;      /*column overlay styling and modeling*/
 }
   
 .about-column .about-content {
     z-index: 2;
-    padding-left: 20px;
+    padding-left: 20px;                         /*content overlap and padding modeling*/
 }
   
-.about-column:hover,
+.about-column:hover,                            
 .about-column:hover .overlay {
     flex: 2;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);      /*flex property modeling*/
 }
   
   
