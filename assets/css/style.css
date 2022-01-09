@@ -26,7 +26,7 @@ h3 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #383838;
+    color: #383838;                         /*heading typography*/
 }
 
 /*Navigation links*/
@@ -37,7 +37,7 @@ h3 {
     display: flex;
     justify-content: flex-end; 
     height: 110px;
-    line-height: 85px;                      /*menu text alignment*/
+    line-height: 85px;                     /*menu text alignment*/
 }
 
 #menu li {
@@ -80,6 +80,13 @@ h3 {
 
 /* Hero image*/
 
+.hero-outer {
+    height: 1090px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .hero-image {
     height: 1090px;
     width: 100%;
@@ -99,4 +106,25 @@ h3 {
     to {
         transform: scale(1);              /*zoom intensity*/
     }
+}
+
+.cover-text {
+    font-size: 150%;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 4px;
+    width: 1830px;
+    height:  250px;
+    padding-top: 40px;
+    padding-left: 50px;
+    background-color: rgb(38, 38, 38, .7);
+    bottom: 60px;
+    left: 80px;
+    position: absolute;
+    line-height: 2em;
+}
+
+.cover-text,
+.cover-text h1,
+.cover-text p {
+    color: whitesmoke; 
 }
