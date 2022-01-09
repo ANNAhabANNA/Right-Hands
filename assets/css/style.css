@@ -38,16 +38,16 @@ h3 {
     display: flex;
     justify-content: flex-end; 
     height: 110px;
-    line-height: 85px;                     /*menu text alignment*/
+    line-height: 85px;                     /*menu text layout*/
 }
 
 #menu li {
     margin-right: 30px;
-    display: inline;                        /*individual list item alignment*/
+    display: inline;                        /*individual list item layout*/
 }
 
 #menu li:first-child {
-    margin-right: auto;                     /*logo image alignment*/
+    margin-right: auto;                     /*logo image layout*/
 }
 
 #menu a {
@@ -60,7 +60,7 @@ h3 {
     color: orange;                       /*mouse over link style*/
 }
 
-.active {
+#active {
     border-bottom: 2px solid orange;      
     font-size: 150%;                       /*selected link style*/
 }
@@ -87,7 +87,7 @@ h3 {
     height: 1090px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative;                     /*outer section layout*/
 }
 
 .hero-image {
@@ -96,13 +96,13 @@ h3 {
     background-image: url(../images/hero-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;                 /*hero image positioning*/
+    background-size: cover;                 /*hero image layout*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;          /*animation effect*/
 }
 
-@keyframes hero-zoom {
+@keyframes hero-zoom {                      /*at-rule*/
     from {
         transform: scale(.9);
     }
@@ -111,23 +111,24 @@ h3 {
     }
 }
 
+/* Cover text*/
+
 .cover-text {
     font-size: 150%;
     font-family: Merriweather, sans-serif;
+    background-color: rgb(38, 38, 38, .7);
     letter-spacing: 4px;
     width: 1830px;
     height:  250px;
+    line-height: 2em;                             /*typography*/
     padding-top: 40px;
     padding-left: 50px;
-    background-color: rgb(38, 38, 38, .7);
     bottom: 60px;
     left: 80px;
-    position: absolute;
-    line-height: 2em;
+    position: absolute;                            /*layout*/
 }
 
 .cover-text,
-.cover-text h1,
-.cover-text p {
-    color: whitesmoke; 
+.cover-text h1 {
+    color: whitesmoke;                           /*typography*/
 }
