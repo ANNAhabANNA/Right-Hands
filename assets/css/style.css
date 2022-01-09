@@ -64,16 +64,18 @@ h3 {
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
+    height: 95px;
+    width: 95px;
     border-radius: 100%;
-    border: 2px solid #383838;
-    margin: 5px 0 2px 30px;
+    border: 1px solid #383838;
+    margin: 7px 0 0 30px;
     padding: 2px;                           /*logo shape styling*/
 }
 
 #logo:hover {
-    transform: scale(1.1);                  /*mouse over logo style*/    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);                /*mouse over zoom logo style*/    
 }
 
 /* Hero image*/
@@ -82,8 +84,19 @@ h3 {
     height: 1090px;
     width: 100%;
     background-image: url(../images/hero-image.jpg);
-    
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;                 /*hero image positioning*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;          /*animation effect*/
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(1);              /*zoom intensity*/
+    }
 }
