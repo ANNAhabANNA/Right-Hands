@@ -25,7 +25,7 @@ h2,
 h3 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 14px;
     color: #383838;                         /*headings typography*/
 }
 
@@ -34,7 +34,7 @@ h3 {
 #menu {
     font-size: 130%;
     font-weight: 800;
-    letter-spacing: 5px;                    /*menu text styling*/
+    letter-spacing: 10px;                    /*menu text styling*/
     display: flex;
     justify-content: flex-end; 
     height: 110px;
@@ -56,8 +56,7 @@ h3 {
 }
 
 #menu a:hover {
-    font-weight: 800;  
-    color: orange;                       /*mouse over link style*/
+    color: #ff581a;                       /*mouse over link style*/
 }
 
 #active {
@@ -145,4 +144,30 @@ h3 {
 #action-button:hover {
     background-color: #ff581a;
     color: black;
+}
+
+/*About us section*/
+
+.about-us {
+    height:1090px;
+}
+
+.left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+.right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+.center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
