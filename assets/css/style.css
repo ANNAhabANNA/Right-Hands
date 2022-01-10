@@ -67,7 +67,7 @@ h2  {
 
 #active {
     border-bottom: 2px solid orange;      
-    font-size: 150%;                       /*selected link style*/
+    font-size: 125%;                       /*selected link style*/
 }
 
 #logo {
@@ -193,6 +193,19 @@ h2  {
 }
   
 /*Features*/
+
+.features-title {
+    color: #383838;
+    padding: 50px;
+    /*text-align: center;
+    display: inline-block;
+    margin: 0 auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
 
 .my-features {
     display: flex;
