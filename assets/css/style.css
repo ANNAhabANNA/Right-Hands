@@ -67,7 +67,10 @@ h2  {
 
 #active {
     border-bottom: 2px solid orange;      
-    font-size: 125%;                       /*selected link style*/
+    font-size: 125%;     
+    position: absolute;
+    left: 175px;  
+    width: 15%;                              /*selected link style*/
 }
 
 #logo {
