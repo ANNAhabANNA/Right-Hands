@@ -200,14 +200,9 @@ h2  {
 .features-title {
     color: #383838;
     padding: 50px;
-    /*text-align: center;
-    display: inline-block;
-    margin: 0 auto;*/
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .my-features {
@@ -215,22 +210,23 @@ h2  {
     height: 1090px;
 }
 
+.big-icon {
+    font-size: 120px;
+}
+
 .features-left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
+   
+    
+    
     background-color: blue;
 }
 
 .features-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+ 
     background-color: silver;
 }
 
 .features-center {
-    width: 33%;
-    margin: 0 auto;
+  
     background-color: green;
 }
