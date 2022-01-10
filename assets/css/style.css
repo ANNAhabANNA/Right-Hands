@@ -18,6 +18,10 @@ body {
     color: #333333;                       /*typography setting*/
 }
 
+.accent-color {
+    color: #ff581a;                            /*accent-color adding to string text*/
+}
+
 /* Headings*/
 
 h1,
@@ -55,9 +59,9 @@ h2  {
 }
 
 #menu a:hover {
-    -webkit-transform: scale(1.3) !important;
-    -ms-transform: scale(1.3) !important;
-    transform: scale(1.3) !important;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
     color: #ff581a;                       /*mouse over link style*/
 }
 
@@ -169,10 +173,6 @@ h2  {
     position: relative;                         /*about-columns styling and transition*/
 }
 
-.accent-color {
-    color: #ff581a;                            /*accent-color adding to string text in headings*/
-}
-
 .about-column .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -194,28 +194,27 @@ h2  {
   
 /*Features*/
 
-.about-us {
-    height:1090px;
+.my-features {
+    display: flex;
+    height: 1090px;
 }
 
-.left-about {
+.features-left {
     padding-top: 30px;
     width: 33%;
     float: left;
     background-color: blue;
 }
 
-.right-about {
+.features-right {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color: silver;
 }
 
-.center-about {
+.features-center {
     width: 33%;
     margin: 0 auto;
     background-color: green;
 }
-
-  
