@@ -18,6 +18,10 @@ body {
     color: #333333;                       /*typography setting*/
 }
 
+.h2, p, i {
+    margin: 20px;
+}
+
 .accent-color {
     color: #ff581a;                            /*accent-color adding to string text*/
 }
@@ -207,26 +211,37 @@ h2  {
 
 .my-features {
     display: flex;
-    height: 1090px;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 35px;
+    color: whitesmoke;
 }
 
 .big-icon {
     font-size: 120px;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .features-left {
-   
-    
-    
-    background-color: blue;
+    width: 33%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);   
+    height: 450px;
 }
 
 .features-right {
- 
-    background-color: silver;
+    width: 33%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 650px;
 }
 
 .features-center {
-  
-    background-color: green;
+    width: 33%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 450px;
 }
