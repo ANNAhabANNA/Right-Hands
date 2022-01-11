@@ -217,7 +217,7 @@ h2  {
 
 .my-features {
     display: flex;
-    height: 900px;
+    height: 1090px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -229,7 +229,7 @@ h2  {
 .big-icon {
     font-size: 120px;
     text-align: center;
-    color: whitesmoke;                          /*icon position and style*/
+    color: #FFC55C;                          /*icon position and style*/
 }
 
 .features-left {
