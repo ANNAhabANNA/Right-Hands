@@ -142,13 +142,13 @@ h2  {
     padding-left: 50px;
     bottom: 60px;
     left: 80px;
-    position: absolute;                       /*layout*/
+    position: absolute;                             /*layout*/
 }
 
 .cover-text,
 .cover-text h1, p, a {
     color: whitesmoke; 
-    margin-left: auto;                        /*typography*/
+    margin-left: auto;                               /*typography*/
 }
 
 /*Action button*/
@@ -157,12 +157,12 @@ h2  {
     background-color: rgb(38, 38, 38);
     color: orange;
     padding: 15px 25px;
-    text-decoration: none;                    /*action button style*/
+    text-decoration: none;                          /*action button style*/
 }
 
 #action-button:hover {
     background-color: #ff581a;
-    color: black;                              /*action button color transition*/
+    color: black;                                   /*action button color transition*/
 }
 
 /* About us*/
@@ -251,4 +251,23 @@ h2  {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     height: 500px;                                  /*right div layout and color*/
+}
+
+
+/*Reviews*/
+
+.my-reviews {
+    height: 1060px;
+    background-image: url('../images/review-town.jpg');     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;   
+}
+
+.review {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 25%;
+    height: 1060px;
+    float: left;
 }
