@@ -1,7 +1,8 @@
 
 /*General set-up*/
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');  /*font link import*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');               /*font link import*/
 
 *,
 *::before,
@@ -17,15 +18,14 @@ body {
     font-weight: 300;
     color: #333333;                       /*typography setting*/
 }
+body p {
+    font-family: Lora;
+}
 
-.h2, p, i {
+h2, p, i {
     margin: 20px;                           /*space to breath for text*/
 }
-
-p {
-    font-family: Verdana;
-    line-height: 35px;                  
-}
+                 
 .accent-color {
     color: #ff581a;                        /*accent-color added to string text*/
 }
