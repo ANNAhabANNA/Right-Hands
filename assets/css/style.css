@@ -136,7 +136,7 @@ h2  {
     background-color: rgb(38, 38, 38, .7);
     letter-spacing: 4px;
     width: 1830px;
-    height:  250px;
+    height:  210px;
     line-height: 2.5em;                             /*typography*/
     padding-top: 35px;
     padding-left: 50px;
@@ -235,7 +235,7 @@ h2  {
     width: 33%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);   
-    height: 450px;
+    height: 500px;
 }                                                  /*left div layout and color*/
 
 .features-right {
@@ -249,5 +249,5 @@ h2  {
     width: 33%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 450px;                                  /*right div layout and color*/
+    height: 500px;                                  /*right div layout and color*/
 }
