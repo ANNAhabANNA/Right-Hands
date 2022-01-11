@@ -221,7 +221,8 @@ h2  {
     align-items: center;
     text-align: center;
     line-height: 40px;
-    color: whitesmoke;                         /*section layout and style*/
+    color: whitesmoke;  
+    font-size: 1.1em;                       /*section layout and style*/
 }
 
 .big-icon {
