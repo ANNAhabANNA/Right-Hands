@@ -19,11 +19,15 @@ body {
 }
 
 .h2, p, i {
-    margin: 20px;
+    margin: 20px;                           /*space to breath for text*/
 }
 
+p {
+    font-family: Verdana;
+    line-height: 35px;
+}
 .accent-color {
-    color: #ff581a;                            /*accent-color adding to string text*/
+    color: #ff581a;                        /*accent-color added to string text*/
 }
 
 /* Headings*/
@@ -215,7 +219,7 @@ h2  {
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 35px;
+    line-height: 40px;
     color: whitesmoke;
 }
 
@@ -236,7 +240,7 @@ h2  {
     width: 33%;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 650px;
+    height: 740px;
 }
 
 .features-center {
