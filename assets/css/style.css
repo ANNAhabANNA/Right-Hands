@@ -24,7 +24,7 @@ body {
 
 p {
     font-family: Verdana;
-    line-height: 35px;
+    line-height: 35px;                  
 }
 .accent-color {
     color: #ff581a;                        /*accent-color added to string text*/
@@ -232,7 +232,7 @@ h2  {
 .features-left {
     width: 33%;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);   
+    background-color: rgba(0, 0, 0, 0.7);   
     height: 450px;
 }                                                  /*left div layout and color*/
 
@@ -246,6 +246,6 @@ h2  {
 .features-center {
     width: 33%;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 450px;                                  /*right div layout and color*/
 }
