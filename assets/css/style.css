@@ -136,7 +136,7 @@ h2  {
     background-color: rgb(38, 38, 38, .7);
     letter-spacing: 4px;
     width: 1830px;
-    height:  210px;
+    height:  280px;
     line-height: 2.5em;                             /*typography*/
     padding-top: 35px;
     padding-left: 50px;
@@ -169,7 +169,8 @@ h2  {
 
 .about-us {
     display: flex;
-    height: 1090px;                             /*outer container of about-section modeling*/
+    height: 1090px; 
+    font-size: large;                            /*outer container of about-section modeling*/
 }
   
 .about-column {
