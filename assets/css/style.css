@@ -41,23 +41,20 @@ h2  {
 
 /*Navigation links*/
 
-#menu {
+.wrapper {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
     font-size: 150%;
     font-weight: 800;
-    letter-spacing: 10px;                    /*menu text styling*/
-    display: flex;
-    justify-content: flex-end; 
-    height: 110px;
-    line-height: 85px;                     /*menu text layout*/
+    letter-spacing: 1rem;                 /*menu text styling*/
 }
 
-#menu li {
-    margin-right: 30px;
-    display: inline;                        /*individual list item layout*/
-}
-
-#menu li:first-child {
-    margin-right: auto;                     /*logo image layout*/
+.flex-nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;                /*menu items layout*/
 }
 
 #menu a {
@@ -65,24 +62,22 @@ h2  {
     color: inherit;                         /*link styling*/
 }
 
-#menu a:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    color: orange;                       /*mouse over link style*/
+#menu a:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    color: orange;
 }
 
-#active {
+.active {
     border-bottom: 2px solid orange;      
     font-size: 125%;     
-    position: absolute;
-    left: 190px;  
-    width: 15%;                              /*selected link style*/
+    width: 15%;                        /*selected link style*/
 }
 
-#logo {
-    height: 95px;
-    width: 95px;
+#menu-logo {
+    height: 85px;
+    width: 85px;
     border-radius: 100%;
     border: 1px solid #383838;
     margin: 7px 0 0 30px;
@@ -97,6 +92,70 @@ h2  {
     box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style */
 }
 
+@media all and (max-width: 1000px) {
+    #menu {
+        flex-direction: column;
+    }
+    
+}
+
+/*
+#menu {
+    font-size: 150%;
+    font-weight: 800;
+    letter-spacing: 10px;                    /*menu text styling*
+    display: flex;
+    justify-content: flex-end; 
+    height: 110px;
+    line-height: 85px;                     /*menu text layout*
+}
+
+#menu li {
+    margin-right: 30px;
+    display: inline;                      /*individual list item layout*
+}
+
+#menu li:first-child {
+    margin-right: auto;                     /*logo image layout*
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;                         /*link styling*
+}
+
+#menu a:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    color: orange;                       /*mouse over link style*
+}
+
+#active {
+    border-bottom: 2px solid orange;      
+    font-size: 125%;     
+    position: absolute;
+    left: 190px;  
+    width: 15%;                        /*selected link style*
+}
+
+#logo {
+    height: 95px;
+    width: 95px;
+    border-radius: 100%;
+    border: 1px solid #383838;
+    margin: 7px 0 0 30px;
+    padding: 2px;                           /*logo shape styling*
+}
+
+#logo:hover {
+   -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+    border-color: orange;                 
+    box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style*
+}
+*/
 /*Hero image*/
 
 .hero-outer {
@@ -287,3 +346,4 @@ h2  {
 .my-footer-bottom {
     text-align: center;
 }
+
