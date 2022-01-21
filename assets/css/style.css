@@ -271,3 +271,19 @@ h2  {
     float: left;
 }
 
+/* Footer */
+
+.footer-social-media {
+    margin: 0;
+}
+
+.footer-social-media > a {
+    display: inline-block;
+    margin: 100px 200px;
+    font-size: 36px;
+    color: #ff581a;
+}
+
+.my-footer-bottom {
+    text-align: center;
+}
