@@ -14,13 +14,17 @@
 }
 
 body {
-    font-family: Source Sans Pro, sans-serif;
-    font-weight: 300;  
-    margin: 0;                          /*typography setting*/
-}
-body p {
     font-family: Lora, sans-serif;
+    color: whitesmoke;
+    font-weight: 300;  
+    margin: 0;   
+    padding: 0;                       /*typography setting*/
 }
+
+/*body p {
+    font-family: Lora, sans-serif;
+    color: whitesmoke;
+}*/
 
 h2, p, i {
     margin: 20px;                           /*space to breath for text*/
@@ -188,7 +192,8 @@ h2  {
     .navbar nav li a {
       display: block;
       padding: 0 8px;
-      font-size: 16px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
       line-height: 60px;
       color: #fff;
       text-decoration: none;
@@ -237,13 +242,13 @@ h2  {
     box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style */
 }
 
-/*Hero image*/
+/*Hero image*
 
 .hero-outer {
     height: 1090px;
     width: 100%;
     overflow: hidden;
-    position: relative;                     /*outer section layout*/
+    position: relative;                     /*outer section layout*
 }
 
 .hero-image {
@@ -252,22 +257,22 @@ h2  {
     background-image: url(../images/hero-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;                 /*hero image layout*/
+    background-size: cover;                 /*hero image layout*
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;          /*animation effect*/
+    animation-fill-mode: forwards;          /*animation effect*
 }
 
-@keyframes hero-zoom {                      /*at-rule*/
+@keyframes hero-zoom {                      /*at-rule*
     from {
         transform: scale(.9);
     }
     to {
-        transform: scale(1);              /*zoom intensity*/
+        transform: scale(1);              /*zoom intensity*
     }
 }
 
-/*Cover text*/
+/*Cover text*
 
 .cover-text {
     font-size: 150%;
@@ -276,40 +281,40 @@ h2  {
     letter-spacing: 4px;
     width: 1830px;
     height:  280px;
-    line-height: 2.5em;                             /*typography*/
+    line-height: 2.5em;                             /*typography*
     padding-top: 35px;
     padding-left: 50px;
     bottom: 60px;
     left: 80px;
-    position: absolute;                             /*layout*/
+    position: absolute;                             /*layout*
 }
 
 .cover-text,
 .cover-text h1, p {
     color: whitesmoke;
-    margin-left: auto;                               /*typography*/
+    margin-left: auto;                               /*typography*
 }
 
-/*Action button*/
+/*Action button*
 
 #action-button {
     background-color: rgb(38, 38, 38);
     color: orange;
     padding: 15px 25px;
-    text-decoration: none;                          /*action button style*/
+    text-decoration: none;                          /*action button style*
 }
 
 #action-button:hover {
     background-color: #ff581a;
-    color: black;                                   /*action button color transition*/
+    color: black;                                   /*action button color transition*
 }
 
-/* About us*/
+/* About us*
 
 .about-us {
     display: flex;
     height: 1090px; 
-    font-size: large;                            /*outer container of about-section modeling*/
+    font-size: large;                            /*outer container of about-section modeling*
 }
   
 .about-column {
@@ -318,11 +323,11 @@ h2  {
     justify-content: center;
     align-items: center;
     height: 100%;
-    overflow: hidden;                           /*about-columns modeling*/
+    overflow: hidden;                           /*about-columns modeling*
     background-size: cover;
     background-position: center;
     transition: flex .4s ease;
-    position: relative;                         /*about-columns styling and transition*/
+    position: relative;                         /*about-columns styling and transition*
 }
 
 .about-column .overlay {
@@ -330,28 +335,28 @@ h2  {
     width: 100%;
     height: 100%;
     position: absolute;
-    transition: background-color .8s ease;      /*column overlay styling and modeling*/
+    transition: background-color .8s ease;      /*column overlay styling and modeling*
 }
   
 .about-column .about-content {
     z-index: 2;
-    padding-left: 20px;                         /*content overlap and padding modeling*/
+    padding-left: 20px;                         /*content overlap and padding modeling*
 }
   
 .about-column:hover,                            
 .about-column:hover .overlay {
     flex: 2;
-    background-color: rgba(0, 0, 0, 0.95);      /*flex property modeling*/
+    background-color: rgba(0, 0, 0, 0.95);      /*flex property modeling*
 }
   
-/*Features*/
+/*Features*
 
 .features-title {
     color: #383838;
     padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;                        /* heading style and layout*/
+    align-items: center;                        /* heading style and layout*
 }
 
 .my-features {
@@ -362,13 +367,13 @@ h2  {
     text-align: center;
     line-height: 40px;
     color: whitesmoke;  
-    font-size: 1.1em;                       /*section layout and style*/
+    font-size: 1.1em;                       /*section layout and style*
 }
 
 .big-icon {
     font-size: 120px;
     text-align: center;
-    color: #FFC55C;                          /*icon position and style*/
+    color: #FFC55C;                          /*icon position and style*
 }
 
 .features-left {
@@ -376,24 +381,24 @@ h2  {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);   
     height: 500px;
-}                                                  /*left div layout and color*/
+}                                                  /*left div layout and color*
 
 .features-right {
     width: 33%;
     padding: 25px;
     background-color: rgba(0, 0, 0, 0.85);
-    height: 740px;                                  /*center div layout and color*/
+    height: 740px;                                  /*center div layout and color*
 }
 
 .features-center {
     width: 33%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 500px;                                  /*right div layout and color*/
+    height: 500px;                                  /*right div layout and color*
 }
 
 
-/*Reviews*/
+/*Reviews*
 
 .my-reviews {
     height: 600px;
@@ -409,25 +414,87 @@ h2  {
     width: 25%;
     height: 700px;
     float: left;
-}
+}*/
 
 /* Footer */
 
-.footer-social-media {
-    margin: 0;
-}
+footer{
+  position: fixed;
+  bottom: 0;
+ }
 
-.footer-social-media > a {
-    display: inline-block;
-    margin: 100px 200px;
-    font-size: 36px;
-    color: #ff581a;
-}
-
-.my-footer-bottom {
-    text-align: center;
-}
-
-
+.footer-container{
+  background-color: rgba(21, 21, 21, 1);
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);  
+  box-sizing: border-box;
+  width: 100%;
+  padding: 35px 30px;
+ }
   
+.footer-container .footer-left,
+.footer-container .footer-center,
+.footer-container .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+  
+.footer-container .footer-left{
+  width: 40%;
+}
+  
+.footer-container h3{
+  color:  whitesmoke;
+  font: normal 36px 'Lora';
+  margin: 0;
+}
+  
+.footer-container h3 span{
+  color: orange;
+}
+  
+.footer-container .footer-center{
+  width: 35%;
+}
+  
+.footer-container .footer-center i{
+  color: orange;
+  font-size: 25px;
+}
+  
+.footer-container .footer-center p{
+  display: inline-block;
+  color: whitesmoke;
+}
+  
+.footer-container .footer-center p a{
+  color: white;
+  text-decoration: none;
+}
+  
+.footer-container .footer-right{
+  width: 20%;
+}
+  
+.footer-container .footer-icons{
+  margin-top: 25px;
+}
+  
+.footer-container .footer-icons a{
+  font-size: 20px;
+  color: orangered;
+}
+  
+  
+@media (max-width: 880px) {
+
+  .footer-container .footer-left,
+  .footer-container .footer-center,
+  .footer-container .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+}
   
