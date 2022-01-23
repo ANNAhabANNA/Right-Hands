@@ -245,22 +245,21 @@ h2  {
     box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style */
 }
 
-/*Hero image*
-
+/*Hero image*/
 .hero-outer {
-    height: 1090px;
+    height: 600px;
     width: 100%;
-    overflow: hidden;
-    position: relative;                     /*outer section layout*
+    overflow:visible;
+                /*outer section layout*/
 }
 
-.hero-image {
-    height: 1090px;
-    width: 100%;
-    background-image: url(../images/hero-image.jpg);
+#hero-image {
+    height: 600px;
+    width: 100vw;
+    background: url('../images/hero-image-resized.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;                 /*hero image layout*
+    background-size: cover;  }               /*hero image layout*
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;          /*animation effect*
@@ -275,149 +274,6 @@ h2  {
     }
 }
 
-/*Cover text*
-
-.cover-text {
-    font-size: 150%;
-    font-family: Source Sans Pro, sans-serif;
-    background-color: rgb(38, 38, 38, .7);
-    letter-spacing: 4px;
-    width: 1830px;
-    height:  280px;
-    line-height: 2.5em;                             /*typography*
-    padding-top: 35px;
-    padding-left: 50px;
-    bottom: 60px;
-    left: 80px;
-    position: absolute;                             /*layout*
-}
-
-.cover-text,
-.cover-text h1, p {
-    color: whitesmoke;
-    margin-left: auto;                               /*typography*
-}
-
-/*Action button*
-
-#action-button {
-    background-color: rgb(38, 38, 38);
-    color: orange;
-    padding: 15px 25px;
-    text-decoration: none;                          /*action button style*
-}
-
-#action-button:hover {
-    background-color: #ff581a;
-    color: black;                                   /*action button color transition*
-}
-
-/* About us*
-
-.about-us {
-    display: flex;
-    height: 1090px; 
-    font-size: large;                            /*outer container of about-section modeling*
-}
-  
-.about-column {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;                           /*about-columns modeling*
-    background-size: cover;
-    background-position: center;
-    transition: flex .4s ease;
-    position: relative;                         /*about-columns styling and transition*
-}
-
-.about-column .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: background-color .8s ease;      /*column overlay styling and modeling*
-}
-  
-.about-column .about-content {
-    z-index: 2;
-    padding-left: 20px;                         /*content overlap and padding modeling*
-}
-  
-.about-column:hover,                            
-.about-column:hover .overlay {
-    flex: 2;
-    background-color: rgba(0, 0, 0, 0.95);      /*flex property modeling*
-}
-  
-/*Features*
-
-.features-title {
-    color: #383838;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;                        /* heading style and layout*
-}
-
-.my-features {
-    display: flex;
-    height: 1090px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 40px;
-    color: whitesmoke;  
-    font-size: 1.1em;                       /*section layout and style*
-}
-
-.big-icon {
-    font-size: 120px;
-    text-align: center;
-    color: #FFC55C;                          /*icon position and style*
-}
-
-.features-left {
-    width: 33%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);   
-    height: 500px;
-}                                                  /*left div layout and color*
-
-.features-right {
-    width: 33%;
-    padding: 25px;
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 740px;                                  /*center div layout and color*
-}
-
-.features-center {
-    width: 33%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 500px;                                  /*right div layout and color*
-}
-
-
-/*Reviews*
-
-.my-reviews {
-    height: 600px;
-    background-image: url('../images/review-town.jpg');     
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;   
-}
-
-.review {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 25%;
-    height: 700px;
-    float: left;
-}*/
 
 /* Footer */
 
@@ -506,7 +362,6 @@ footer {
     margin-bottom: 2.5rem;
     text-align: center;
   }                                                 /*child containers responsiveness in smartphones*/
-  
 }
 
 /*Contact page*/
@@ -628,7 +483,7 @@ footer {
     width: 90%;
     padding: 1.9rem 2.5rem 2.5rem 2.1rem;
   }
-  .contact-container .contact-content .right-side{
+  .contact-container .contact-content .right-side {
    width: 75%;
    margin-left: 3.4rem;
   }
