@@ -658,6 +658,18 @@ footer {
  }
 }
 
+/*Post-submit thank you page*/
+
+.post-submit {
+  display: flex;
+}
+
+.thanku-box h1 {
+  padding: 2rem 2rem;
+  color: orangered;
+}
+
+
 
 
 
