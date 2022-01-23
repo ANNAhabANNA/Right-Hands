@@ -14,7 +14,7 @@
     <header>
         <!-- navigation -->
         <div class="header header-fixed">
-            <div class="navbar container">
+            <div class="navbar container-navbar-fixed">
                 <div class="logo"><a href="index.html"><img id="menu-logo" src="assets/images/logo.jpg" alt="Animated crossed arms on the chest holding a wrench and a hammer" title="Company logo"/></a></a></div>
                 <input type="checkbox" id="navbar-toggle" >
                 <label for="navbar-toggle"><i></i></label>
@@ -29,6 +29,49 @@
             </div>
         </div>
     </header>
+    <main>
+    <div class="contact-container">
+        <div class="contact-content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Carlow Town</div>
+              <div class="text-two">County Carlow - Ireland</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+353 89 451 64 03</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">info@righthands.ie</div>
+            </div>
+          </div>
+
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>Whether you have a question about our services, pricing or anything else, we are ready to answer all your questions. </p>
+            <form action="mailto:akozorkova@gmail.com"  method="POST" enctype="multipart/form-data" name="EmailForm">
+            <div class="input-box">
+              <input type="text" name="contact_name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <input type="email" name="email_address" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box message-box">
+               <input type="text" name="write_message" placeholder="Enter your message" required>
+            </div>
+            <div class="button">
+              <button type="submit" value="Send Now">Send Now</button>
+            </div>
+            </form>
+          </div>
+        </div>
+    </div>
+    </main>
     <!-- footer -->
     <footer class="footer-container">
         <div class="footer-left">
@@ -61,11 +104,12 @@
             <p class="footer-links">
             <p><span class="accent-color">Mon - Fri</span> 9:00 - 18:00</p>
             <p><span class="accent-color">Sat</span> 9:00 - 15:00</p>
-            <p><span class="accent-color">Sun</span>Closed</p>
+            <p><span class="accent-color">Sun</span> Closed</p>
             </p>
             <p><span class="accent-color"><small>Right Hands Ltd &copy; 2022. All Rights Reserved</small></span></p>
         </div>
     </footer>
+    
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/abebfafba8.js" crossorigin="anonymous"></script>
 </body>

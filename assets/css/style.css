@@ -14,11 +14,18 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: Lora, sans-serif;
     color: whitesmoke;
     font-weight: 300;  
     margin: 0;   
     padding: 0;                              /*typography setting*/
+}
+
+main {
+  flex-grow: 1;
 }
 
 body p {
@@ -34,8 +41,6 @@ h2, p, i {
     color: #ff581a;                        /*accent-color added to string text*/
 }
 
-/* Headings*/
-
 h1,
 h2  {
     font-family: Source Sans Pro, sans-serif;
@@ -47,12 +52,10 @@ h2  {
 /* Navigation*/
 
 .header-fixed {
-    position: fixed;
     top: 0;
     z-index: 1;
     width: 100%;                                       /*parent container positioning against descendant containers*/
     background-color: rgba(21, 21, 21, 1);
-    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);    /*additional styling*/
 }
 
 .navbar {
@@ -159,14 +162,14 @@ h2  {
       text-align: center;
       padding: 20px 0;
       text-align: center;
-      font-size: 50px;
+      font-size: 30px;
       min-height: 50px;
       font-weight: bold;
       cursor: pointer;
-      transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;          /*toggle menu items typography and layout*/
     }
     .navbar nav li:hover {
-      background: #212121;
+      background: #212121;                  
     }
     .navbar nav li:hover a {
       color: #fff;
@@ -192,7 +195,7 @@ h2  {
     .navbar nav li a {
       display: block;
       padding: 0 8px;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-transform: uppercase;
       line-height: 60px;
       color: #fff;
@@ -214,9 +217,9 @@ h2  {
 }
 
 .menu a:hover{
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     color: orange;                          /*menu link mouse over styling*/
 }
 
@@ -230,14 +233,14 @@ h2  {
     width: 85px;
     border-radius: 100%;
     border: 1px solid #383838;
-    margin: 7px 0 0 30px;
-    padding: 2px;                           /*logo shape styling*/
+    margin: 20px 0 0 30px;
+    padding: 5px;                           /*logo shape styling*/
 }
 
 #menu-logo:hover {
-   -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1); 
+   -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); 
     border-color: orange;                 
     box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style */
 }
@@ -419,7 +422,6 @@ h2  {
 /* Footer */
 
 footer {
-  position: fixed;
   bottom: 0;                                        /*footer main container fixed positioning to bottom*/
  }
 
@@ -506,6 +508,159 @@ footer {
   }                                                 /*child containers responsiveness in smartphones*/
   
 }
+
+/*Contact page*/
+
+.contact-container {
+  width: 100%;                                     /*parent container sizing*/
+}
+
+.contact-container .contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;                  /*child containers alignment*/             
+}
+
+.contact-container .contact-content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  position: relative;                              /*left child container sizing and alignment*/
+}
+
+.contact-content .left-side::before {
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: grey;                               /*divider styling and layout*/
+}
+
+.contact-content .left-side .details { 
+  margin: 1rem;
+  text-align: center;
+}                                                   /*left child container contact details layout*/
+
+.contact-content .left-side .details i {
+  font-size: 1.9rem;
+  color: #212121;
+  margin-bottom: 0.6rem;                            /*fontawesome typography*/                 
+}
+
+.contact-content .left-side .details .topic {
+  font-size: 1.2rem;
+  font-weight: 500;   
+  color: orangered;                               /*left child container topic typography*/
+}
+
+.contact-content .left-side .details .text-one,
+.contact-content .left-side .details .text-two  {
+  font-size: 1rem;
+  color: #212121;                                 /*left child container text typography*/
+}
+
+.contact-container .contact-content .right-side {
+  width: 75%;
+  margin-left: 4.7rem;                               /*right child container sizing and alignment*/
+}
+
+.contact-content .right-side .topic-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: orangered;  
+  text-align: center;                                /*right child container topic typography*/
+}
+
+.right-side p {
+  color: #212121;
+}
+
+.right-side .input-box {
+  height: 3rem;
+  width: 95%;
+  margin: 0.75rem 0;                                 /*input box fields sizing and alignement*/
+}
+
+.right-side .input-box input {
+  height: 95%;
+  width: 95%;
+  font-size: 1rem;
+  background: #F0F1F8;
+  border-radius: 0.3rem;
+  padding: 0 0.9rem;                                /*input fileds styling*/                  
+}
+
+.right-side .message-box {
+  min-height: 7.5rem;                               /*input message box sizing*/
+}
+
+.right-side .button {
+  display: inline-block;
+  margin-top: 0.75rem;                              /*input submit button sizing and positioning*/
+}
+
+.right-side .button [type="submit"] {
+  color: #fff;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  background: #333;                               /*input submit button styling*/
+
+}
+
+.button [type="submit"]:hover {
+  background: orangered;                          /*input submit button mouse over styling*/
+}
+
+/*Responsive contact*/
+
+@media (max-width: 950px) {
+  .contact-container{
+    width: 90%;
+    padding: 1.9rem 2.5rem 2.5rem 2.1rem;
+  }
+  .contact-container .contact-content .right-side{
+   width: 75%;
+   margin-left: 3.4rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .contact-container {
+    margin: 2.5rem 0;
+    height: 100%;
+  }
+  .contact-container .contact-content {
+    flex-direction: column-reverse;
+  }
+ .contact-container .contact-content .left-side {
+   width: 100%;
+   flex-direction: row;
+   margin-top: 2.5rem;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .contact-container .contact-content .left-side::before {
+   display: none;
+ }
+ .contact-container .contact-content .right-side {
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+
+
+
   
 	
 	
