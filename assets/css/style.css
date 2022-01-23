@@ -409,9 +409,9 @@ h3 {
 
 /* Footer */
 
-footer{
+.footer{
   position: fixed;
-  bottom: 0;                                        /*footer positioning fixed to the bottom*/
+  bottom: 0;                                    /*footer positioning fixed to the bottom*/
  }
 
 .footer-container {
@@ -497,11 +497,9 @@ footer{
 /*Responsive footer designfor smartphones*/
 
 @media (max-width: 768px) {
-
   .footer-container .footer-left,
   .footer-container .footer-center,
   .footer-container .footer-right {
-    
     width: 85%;
     text-align: justify;
   }                                                 
