@@ -10,228 +10,237 @@
     box-sizing: border-box;                
     margin: 0;
     padding: 0;
-    border: none;                               /*box model setting*/
+    border: none;                           /*box model setting*/
 }
 
 body {
     font-family: Lora, sans-serif;
-    color: whitesmoke;      
-    letter-spacing: 0.3rem;  
-    margin: 0;    
-    line-height: 1.5rem;                         /*typography setting*/
+    color: whitesmoke;
+    font-weight: 300;  
+    margin: 0;   
+    padding: 0;                              /*typography setting*/
+}
+
+body p {
+    font-family: Lora, sans-serif;
+    color: whitesmoke;
+}
+
+h2, p, i {
+    margin: 20px;                           /*space to breath for text*/
 }
                  
 .accent-color {
-    color: #ff581a;                            /*accent-color added to string text*/
+    color: #ff581a;                        /*accent-color added to string text*/
 }
 
+/* Headings*/
+
 h1,
-h2,
-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+h2  {
+    font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 14px;
     color: whitesmoke;                         /*headings typography*/
 }
 
 /* Navigation*/
 
-/*Responsive design for devices bigger than smartphones*/
-
-@media (min-width: 768px) {
-  .navbar nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    list-style: none;                           /*flex model for menu list items*/
-  }
-  
-  .navbar nav li {
-    flex: 1;                                    /*list item boxes even distribution*/
-  }
-
-  .navbar nav li a {
-    display: block;
-    padding: 0 0.5rem;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    line-height: 3rem;
-    color: #fff;
-    text-decoration: none;                      /*menu link item boxes styling and typography*/
-  }
-  .navbar nav li:hover {
-    background: #333;                         /*link mouse over styling with color*/
-  }
-  .navbar label {
-    display: none;
-  }                                             /*sandwich menu disguise*/
-}
-
-/*navigation toggle menu*/
-
 .header-fixed {
     position: fixed;
     top: 0;
     z-index: 1;
-    width: 100vw;                                /*parent container positioning against descendant containers*/
-    background-color: rgba(21, 21, 21, 1);     /*header container color*/
+    width: 100%;                                       /*parent container positioning against descendant containers*/
+    background-color: rgba(21, 21, 21, 1);
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.1);    /*additional styling*/
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;                               /*flexbox layout for container holding menu links*/
-    color: whitesmoke;
-    line-height: 2.5rem;                               /*typography*/
+    justify-content: space-between;
+    align-items: center;                            /*flexbox layout for container holding menu links*/
+    color: #fff;
+    line-height: 60px;                              /*typography*/
 }
 
 .navbar .logo {
-    flex: 3;                                           /*flexbox item logo positioning against text menu links*/
+    flex: 3;                                        /*flexbox item logo positioning against text menu links*/
 }
 
 .navbar nav {
-    flex: 8;                                           /*flexbox text menu items positioning against logo*/                                     
+    flex: 8;                                        /*flexbox text menu items positioning against logo*/                                     
 }
 
 .navbar label {
   user-select: none;
   cursor: pointer;
-  padding: 1.8rem 1.3rem;
-  margin-right: 1rem;
+  padding: 28px 20px;
   position: relative;
-  z-index: 3;                                           /*sandwich menu alignment*/
+  z-index: 3;
 }
 
 .navbar label i {
-  height: 0.13rem;
-  width: 1.1rem;
-  position: relative;                                   /*sandwich menu positioning*/
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+  font-style: normal;
+  font-weight: normal;
 }
-
 .navbar label i:before,
 .navbar label i:after {
   content: '';
   height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
   width: 100%;
-  position: absolute;                                    /*sandwich menu positioning*/                                
-} 
-
+}
 .navbar label i,
 .navbar label i:before,
 .navbar label i:after {
   display: block;
-  background: whitesmoke;                               /*sandwich menu positioning and color*/                                       
+  background: #eee;  
 }
-
 .navbar label i:before {
-  top: 0.3rem;                                             /*sandwich menu design*/
+  top: 5px;
 }
-
 .navbar label i:after {
-  top: -0.3rem;                                            /*sandwich menu design*/
+  top: -5px;
 }
 
 .navbar #navbar-toggle {
-  display: none;                                           /*checkbox element layout*/
+  display: none;
 }
 
 .header #navbar-toggle:checked ~ .menu {
   visibility: visible;
-  opacity: 0.99;                                           /*sandwich menu style transfer to round button style*/
+  opacity: 0.99;
 }
-
 .header #navbar-toggle:checked ~ label {
-  background: orange;
-  border-radius: 50%;                                       /*round button color and shape*/
+  background: #212121;
+  border-radius: 50%;    
 }
-
 .header #navbar-toggle:checked ~ label i {
-  background: transparent;                                  /*round button's cross styling*/
+  background: transparent;
 }
-
 .header #navbar-toggle:checked ~ label i:before {
-  transform: rotate(-45deg);                                 /*round button's cross rotaion*/
+  transform: rotate(-45deg);
 }
-
 .header #navbar-toggle:checked ~ label i:after {
-  transform: rotate(45deg);                                  /*round button's cross rotation*/
+  transform: rotate(45deg);
 }
-
 .header #navbar-toggle:checked ~ label:not(.steps) i:before,
 .header #navbar-toggle:checked ~ label:not(.steps) i:after {
-  top: 0;                                                      /*round button with a cross style*/
-}    
-
-.menu a:hover{
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  color: orange;                                           /*menu link mouse over styling*/
+  top: 0;
 }
 
-.active {
-  border-bottom: 2px solid orange;                         /*selected link style*/
-}
-
-#menu-logo {
-  height: 6.5rem;
-  width: 6.5rem;
-  border-radius: 100%;
-  border: 1px solid #212121;
-  margin: 1.1rem 1.1rem 0.2rem;
-  padding: 0.1rem;                                           /*logo shape styling*/
-}
-
-#menu-logo:hover {
- -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1); 
-  border-color: orange;                 
-  box-shadow: inset 0 0 0 2px orange;                      /*mouse over zoom logo style */
-}
-
-/*Responsive design for smartphones*/
-
-@media (max-width: 768px) {                         
+@media (max-width: 768px) {
     .navbar nav {
       visibility: hidden;
       opacity: 0;
       z-index: 2;
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      transition: all 0.3s ease-out;
       display: table;
-      background: whitesmoke;  
-      text-transform: uppercase;                 /* responsive navbar styling and porsitioning*/
+      background: #ddd;
     }
     .navbar nav ul {
       margin: 0;
-      padding: 1.25rem 0;
+      padding: 20px 0;
       display: table-cell;
-      vertical-align: middle;                   /*navbar menu list alignment*/
+      vertical-align: middle;
     }
     .navbar nav li {
       display: block;
       text-align: center;
-      padding: 1.25rem 0;
+      padding: 20px 0;
       text-align: center;
-      font-size: 3rem;                           /*navbar menu list items layout and style*/
+      font-size: 50px;
+      min-height: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
     }
     .navbar nav li:hover {
-      background: #212121;                     /*navbar menu list mouse over style*/
+      background: #212121;
     }
     .navbar nav li:hover a {
-      color:whitesmoke;                        /*navbar menu link items mouse over style*/
+      color: #fff;
+      transition: all 0.3s ease-out;
     }
     .navbar nav li a {
-      color: #212121;  
-      text-decoration: none;                     /*navbar menu link items font color*/                                 
+      color: #212121;
     }
 }
 
+@media (min-width: 768px) {
+    .navbar nav ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      list-style: none;
+    }
+    .navbar nav li {
+      flex: 1;
+    }
+    .navbar nav li a {
+      display: block;
+      padding: 0 8px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      line-height: 60px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar nav li.active {
+      background: #555;  
+    }
+    .navbar nav li:hover {
+      background: #333;
+    }
+    .navbar label {
+      display: none;
+    }
+}
+
+.menu a {
+    text-decoration: none;                    /*menu link styling*/
+}
+
+.menu a:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    color: orange;                          /*menu link mouse over styling*/
+}
+
+.active {
+    border-bottom: 2px solid orange;      
+    font-size: 125%;                            /*selected link style*/
+}
+
+#menu-logo {
+    height: 85px;
+    width: 85px;
+    border-radius: 100%;
+    border: 1px solid #383838;
+    margin: 7px 0 0 30px;
+    padding: 2px;                           /*logo shape styling*/
+}
+
+#menu-logo:hover {
+   -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+    border-color: orange;                 
+    box-shadow: inset 0 0 0 2px orange;    /*mouse over zoom logo style */
+}
 
 /*Hero image*
 
@@ -409,100 +418,95 @@ h3 {
 
 /* Footer */
 
-.footer{
+footer {
   position: fixed;
-  bottom: 0;                                    /*footer positioning fixed to the bottom*/
+  bottom: 0;                                        /*footer main container fixed positioning to bottom*/
  }
 
 .footer-container {
   background-color: rgba(21, 21, 21, 1);
   width: 100vw;
-  padding: 3.4rem 3rem;                           /*footer container styling and spacing*/
+  padding: 2rem 1.8rem;                             /*footer styling, sizing and alignment*/
  }
-
-.footer-container h3 {
-  font: normal 2.25rem 'Source Sans Pro'; 
-  padding-bottom: 0.5rem;                    /*footer headings typography*/
-}
-
-.footer-container p {
-  margin-bottom: 0.5rem;                          /*footer paragraphs spacing*/
-}
   
 .footer-container .footer-left,
 .footer-container .footer-center,
-.footer-container .footer-right {
+.footer-container .footer-right { 
   display: inline-block;
-  vertical-align: top;                              /*child containers positioning and alignment*/
+  vertical-align: top;                              /*footer child containers positioning and alignment*/
 }
   
-.footer-container .footer-left{
+.footer-container .footer-left {
   width: 40%;                                       /*left child container sizing*/
+}
+
+.footer-container h3 {
+  color:  whitesmoke;
+  font: normal 2.3rem 'Lora';
+  margin: 0;                                        /*heading typography*/
 }
   
 .footer-container h3 span{
-  color: orange;                                  /*accent color for footer headings*/
+  color: orange;                                  /*accent color in headings*/               
 }
   
-.footer-container .footer-copyright {
-  font-size: x-small;                               /*footer copyright font sizing*/
-}
-
 .footer-container .footer-center {
-  width: 35%;    
-  text-align: center;                               /*center child container sizing and text alignment*/
+  width: 35%;                                       /*center child container sizing*/
 }
   
 .footer-container .footer-center i {
   color: orange;
-  font-size: 1.5rem;
-  vertical-align: middle;
-  line-height: 3rem;
-  margin: 0.6rem 0.9rem;                            /*center child container icons alignment and typography*/
+  font-size: 1.5rem;                                /*fontawesome icons styling*/
 }
   
 .footer-container .footer-center p {
-  display: inline-block;                            /*positioning paragraphs inline to each other*/
+  display: inline-block;
+  color: whitesmoke;                              /*child center container paragraph layout and styling*/
 }
-
+  
 .footer-container .footer-center p a {
-  color: whitesmoke;
-  text-decoration: none;                           /*email link styling*/
+  color: white;
+  text-decoration: none;                            /*email link styling*/
 }
-  
+
 .footer-container .footer-center p a:hover {
-  color: orange;                                    
-  }                                               /*email link mouse over styling*/
-}
-
-.footer-container .footer-right {
-  width: 22%;                                       /*right child container sizing*/
-}
-  
-.footer-container .footer-social-icons {
-  margin: 1rem;                                     /*social icons alignment*/       
-}
-  
-.footer-container .footer-social-icons a {
-  font-size: 1.4rem;
-  color: orangered;
-  margin-right: 0.6rem;  
-  text-decoration: none;                            /*social icons sizing and spacing*/
-}
-
-.footer-container .footer-social-icons a:hover {
   color: orange;
+  font-size: 1.2rem;                                /*email link mouse over styling*/
 }
   
-/*Responsive footer designfor smartphones*/
+.footer-container .footer-right {
+  width: 20%;                                       /*right child container sizing*/
+}
+  
+.footer-container .footer-icons {
+  margin-top: 1.6rem;                               /*social icons positioning*/
+}
+  
+.footer-container .footer-icons a {
+  font-size: 1.3rem;
+  color: orangered;                               /*social link icons typography*/                     
+}
 
-@media (max-width: 768px) {
+.footer-container .footer-icons a:hover {
+  font-size: 1.5rem;
+  color: orange;                                  /*social link icons mouser over styling*/                     
+}
+  
+/*Responsive footer*/
+
+@media (max-width: 880px) {
+
   .footer-container .footer-left,
   .footer-container .footer-center,
   .footer-container .footer-right {
-    width: 85%;
-    text-align: justify;
-  }                                                 
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }                                                 /*child containers responsiveness in smartphones*/
   
 }
   
+	
+	
+	
