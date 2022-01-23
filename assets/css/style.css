@@ -26,8 +26,9 @@ body {
 }
 
 h1,
-h2  {
-    font-family: Source Sans Pro, sans-serif;
+h2,
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     color: whitesmoke;                         /*headings typography*/
 }
@@ -420,7 +421,8 @@ footer{
  }
 
 .footer-container h3 {
-  font: normal 2.25rem'Lora';                     /*footer headings typography*/
+  font: normal 2.25rem 'Source Sans Pro'; 
+  padding-bottom: 0.5rem;                    /*footer headings typography*/
 }
 
 .footer-container p {
@@ -465,11 +467,12 @@ footer{
 
 .footer-container .footer-center p a {
   color: whitesmoke;
-  text-decoration: none;                            /*email link styling*/
+  text-decoration: none;                           /*email link styling*/
 }
   
 .footer-container .footer-center p a:hover {
-  color: orange;                                  /*email link mouse over styling*/
+  color: orange;                                    
+  }                                               /*email link mouse over styling*/
 }
 
 .footer-container .footer-right {
@@ -485,6 +488,10 @@ footer{
   color: orangered;
   margin-right: 0.6rem;  
   text-decoration: none;                            /*social icons sizing and spacing*/
+}
+
+.footer-container .footer-social-icons a:hover {
+  color: orange;
 }
   
 /*Responsive footer designfor smartphones*/
