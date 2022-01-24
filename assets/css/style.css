@@ -61,7 +61,7 @@ h2  {
     display: flex;
     justify-content: space-between;
     align-items: center;                            /*flexbox layout for container holding menu links*/
-    color: #fff;
+    color: whitesmoke;
     line-height: 2.3rem;                              /*typography*/
 }
 
@@ -85,7 +85,7 @@ h2  {
   height: 5.3rem;
   width: 5.3rem;
   border-radius: 100%;
-  border: 1px solid #383838;
+  border: 1px solid #4c4c4c;
   margin: 1rem 0 0 1.35rem;
   padding: 0.3rem;                             /*logo shape styling*/
 }
@@ -95,7 +95,7 @@ h2  {
   -ms-transform: scale(1.2);
   transform: scale(1.2); 
   border-color: orange;                 
-  box-shadow: inset 0 0 0 2px orange;             /*mouse over zoom logo style */
+  box-shadow: inset 0 0 0 1px orange;             /*mouse over zoom logo style */
 }
 
 .navbar .logo {
@@ -188,7 +188,6 @@ h2  {
       left: 0;
       width: 100%;
       height: 100%;
-      transition: all 0.3s ease-out;
       display: table;
       background: whitesmoke;
     }
@@ -207,7 +206,7 @@ h2  {
       text-align: center;
       font-size: 1.8rem;
       min-height: 3.1rem;
-      font-weight: bold;                    /*toggle menu items typography and layout*/
+      font-weight: 400;                    /*toggle menu items typography and layout*/
     }
 
     .navbar nav li:hover {                    
@@ -215,7 +214,7 @@ h2  {
     }
 
     .navbar nav li:hover a {
-      color: #fff;
+      color: whitesmoke;
     }
 
     .navbar nav li a {
@@ -243,16 +242,16 @@ h2  {
       font-size: 1.3rem;
       text-transform: uppercase;
       line-height: 3.75rem;
-      color: #fff;
+      color: whitesmoke;
       text-decoration: none;
     }
 
     .navbar nav li.active {
-      background: #555;  
+      background: #212121;  
     }
 
     .navbar nav li:hover {
-      background: #333;
+      background: #212121;
     }
 
     .navbar label {
@@ -268,7 +267,7 @@ h2  {
     display: flex;
     flex-direction: column;
     margin: 0;    
-    background-color: rgb(242, 161, 3, 0.9);                         /*outer section layout*/
+    background-color: orange;                         /*outer section layout*/
 }
 
 #hero-image {
@@ -292,18 +291,24 @@ h2  {
 
 @media only screen and (max-width: 880px) {
 
+    @keyframes zoominoutsinglefeatured {
+      0% {
+          transform: scale(1,1);
+      }
+      50% {
+          transform: scale(1.1,1.1);
+      }
+      100% {
+          transform: scale(1,1);
+      }                                                               /*mobile version animation*/
+  }
   
   #hero-image {
     background-repeat: no-repeat;
-    background-size: contain;
-    animation: zoominoutsinglefeatured 15s backwards;
-  }
-
-  .hero-outer {
-    padding:none;
+    background-size: contain;                                         /*hero image resizing for smaller devices*/
+    animation: zoominoutsinglefeatured 15s backwards;                 /*zoom in - zoom out effect in animation */            
   }
 }
-
 
 /* Footer */
 
@@ -353,7 +358,7 @@ footer {
 }
   
 .footer-container .footer-center p a {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;                            /*email link styling*/
 }
 
@@ -425,7 +430,7 @@ footer {
   right: -1rem;
   top: 50%;
   transform: translateY(-50%);
-  background: grey;                               /*divider styling and layout*/
+  background: #212121;                               /*divider styling and layout*/
 }
 
 .contact-content .left-side .details { 
@@ -459,6 +464,7 @@ footer {
 .contact-content .right-side .topic-text {
   font-size: 1.4rem;
   font-weight: 600;
+  text-transform: uppercase;
   color: orangered;  
   text-align: center;                                /*right child container topic typography*/
 }
@@ -498,12 +504,12 @@ footer {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
-  background: #333;                               /*input submit button styling*/
+  background: #212121;                               /*input submit button styling*/
 
 }
 
 .button [type="submit"]:hover {
-  background: orangered;                          /*input submit button mouse over styling*/
+  background: orange;                          /*input submit button mouse over styling*/
 }
 
 /*Responsive contact*/
@@ -546,19 +552,14 @@ footer {
 /*Post-submit thank you page*/
 
 .post-submit {
-  display: flex;
+  display: flex;                            /*parent container flexbox setting*/
 }
 
-.thanku-box h1 {
+.thanku-box h1{
   padding: 2rem 2rem;
   color: orangered;
+  text-align: center;                       /*child container typography*/
 }
 
+/*Portfolio*/
 
-
-
-
-  
-	
-	
-	
