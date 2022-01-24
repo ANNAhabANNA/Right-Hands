@@ -259,11 +259,17 @@ h2  {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+  .header-fixed {
+    width: 100vw;                                    /*nav bar full length on wider screens*/
+  }
+}
+
 /*Hero image*/
 
 .hero-outer {
-    max-height: 60vh;
-    width: 100%;
+    max-height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: 0;    
@@ -297,6 +303,11 @@ h2  {
     background-repeat: no-repeat;
     background-size: contain;                                         
     animation: zoominoutsinglefeatured 15s;                    /*zoom in - zoom out effect in animation  length*/            
+  }
+
+  .hero-outer {
+    max-height: 60vh;
+    width: 100vw;
   }
 }
 
@@ -584,7 +595,8 @@ footer {
 /*Post-submit thank you page*/
 
 .post-submit {
-  display: flex;                            /*parent container flexbox setting*/
+  display: flex;    
+  background: orange;                        /*parent container flexbox setting*/
 }
 
 .thanku-box h1{
