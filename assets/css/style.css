@@ -485,17 +485,17 @@ The borrowed version was restyled according to project needs*/
 }
 
 .contact-content .left-side .details .topic {
-  font-size: 1.2rem;
-  letter-spacing: 0.2rem;
-  font-weight: 500;   
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 600;   
   color: orangered;                               /*left child container topic typography*/
 }
 
 .contact-content .left-side .details .text-one,
 .contact-content .left-side .details .text-two  {
-  font-size: 1rem;
+  font-size: 1.3rem;
   letter-spacing: 0.2rem;
-  font-weight: 400;
+  font-weight: 500;
   color: #212121;                                 /*left child container text typography*/
 }
 
@@ -505,7 +505,7 @@ The borrowed version was restyled according to project needs*/
 }
 
 .contact-content .right-side .topic-text {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
@@ -553,7 +553,16 @@ The borrowed version was restyled according to project needs*/
 }
 
 .button [type="submit"]:hover {
-  background: orangered;                                 /*input submit button mouse over styling*/
+  background: orangered;                             /*input submit button mouse over styling*/
+}
+
+.text-one a {
+  text-decoration: none;
+  color: #212121;                                   /*email link styling*/            
+}
+
+.text-one a:hover {
+  color: orangered;                                 /*email link hover effect*/
 }
 
 /*Responsive contact*/
