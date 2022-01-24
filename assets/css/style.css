@@ -262,12 +262,12 @@ h2  {
 /*Hero image*/
 
 .hero-outer {
-    min-height: 100vh;
+    max-height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;    
-    background-color: orange;                         /*outer section layout*/
+    background-color: orange;                         /*outer section layout and siziing*/
 }
 
 #hero-image {
@@ -275,38 +275,70 @@ h2  {
     height: 100vh;
     width: 100vw;
     background: url('../images/hero-image.jpg') no-repeat center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;                                    /*animation effect*/
 }
 
-@keyframes hero-zoom {                                                /*at-rule */
-    from {
-        transform: scale(.9);
-    }
-    to {
-        transform: scale(1);                                          /*zoom intensity*/
-    }
-}
+/*Responsive hero image for small screen devices*/
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 880px) {                 /*media query*/
 
-    @keyframes zoominoutsinglefeatured {
-      0% {
-          transform: scale(1,1);
-      }
-      50% {
-          transform: scale(1.1,1.1);
-      }
-      100% {
-          transform: scale(1,1);
-      }                                                               /*mobile version animation*/
-  }
-  
+  @keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(0.4,0.4);
+    }
+    50% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }    
+  }                                                           /*zoom in - zoom out timing*/
+
   #hero-image {
     background-repeat: no-repeat;
-    background-size: contain;                                         /*hero image resizing for smaller devices*/
-    animation: zoominoutsinglefeatured 15s backwards;                 /*zoom in - zoom out effect in animation */            
+    background-size: contain;                                         
+    animation: zoominoutsinglefeatured 15s;                    /*zoom in - zoom out effect in animation  length*/            
+  }
+}
+
+/*Responsive hero image for large screen devices*/
+
+@media only screen and (min-width: 1024px) {                        
+
+  @keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(0.4,0.4);
+    }
+    50% {
+        transform: scale(0.8,0.8);
+    }
+    100% {
+        transform: scale(1,1);
+    }                                                               
+}
+
+#hero-image {
+  background-repeat: no-repeat;
+  background-size: contain;                                
+  animation: zoominoutsinglefeatured 10s;                         
+  }
+}
+
+@media only screen and (min-width: 1280px) {                        
+
+  @keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(0.4,0.4);
+    }
+    50% {
+        transform: scale(0.8,0.8);
+    }
+    100% {
+        transform: scale(1,1);
+    }                                                               
+  }
+
+#hero-image {                        
+  animation: zoominoutsinglefeatured 10s;                         
   }
 }
 
