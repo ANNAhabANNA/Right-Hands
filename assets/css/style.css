@@ -660,3 +660,17 @@ The borrowed version was restyled according to project needs*/
     margin: 25px;                           /*space out images between each other*/                   
   }
 }
+
+/*Services*/
+
+.services-container {
+  display: flex;                           /*parent container turned flexbox*/
+}
+
+.services-container-content {
+  flex:1                                   /*child container width ratio*/
+}
+
+.services-container:first-child {
+  margin-right: 1.25rem;                  /*spacing between child container*/
+}
