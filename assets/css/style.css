@@ -584,15 +584,21 @@ The borrowed version was restyled according to project needs*/
 
 /*Post-submit thank you page*/
 
-.post-submit {
+main {
   display: flex;    
-  background: orange;                      /*parent container flexbox setting*/
+  background: orange;  
+  height: auto;                    /*parent container flexbox setting*/
 }
 
 .thanku-box h1{
   padding: 2rem 2rem;
   color: orangered;
   text-align: center;                       /*child container typography*/
+}
+ 
+.thanku-box p {
+  color: #212121;
+  text-align: center;
 }
 
 /*Portfolio*/
