@@ -437,6 +437,10 @@ footer {
 /*Contact page template was borrowed from https://www.codinglabweb.com/2021/04/contact-us-form-in-html-and-css-free.html 
 The borrowed version was restyled according to project needs*/
 
+.contact {
+  background-color: orange;
+}
+
 .contact-container {
   width: 100%;                                     /*parent container sizing*/
 }
@@ -482,6 +486,7 @@ The borrowed version was restyled according to project needs*/
 
 .contact-content .left-side .details .topic {
   font-size: 1.2rem;
+  letter-spacing: 0.2rem;
   font-weight: 500;   
   color: orangered;                               /*left child container topic typography*/
 }
@@ -489,6 +494,8 @@ The borrowed version was restyled according to project needs*/
 .contact-content .left-side .details .text-one,
 .contact-content .left-side .details .text-two  {
   font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
   color: #212121;                                 /*left child container text typography*/
 }
 
@@ -500,6 +507,7 @@ The borrowed version was restyled according to project needs*/
 .contact-content .right-side .topic-text {
   font-size: 1.4rem;
   font-weight: 600;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   color: orangered;  
   text-align: center;                                /*right child container topic typography*/
@@ -545,7 +553,7 @@ The borrowed version was restyled according to project needs*/
 }
 
 .button [type="submit"]:hover {
-  background: orange;                                 /*input submit button mouse over styling*/
+  background: orangered;                                 /*input submit button mouse over styling*/
 }
 
 /*Responsive contact*/
@@ -584,7 +592,7 @@ The borrowed version was restyled according to project needs*/
 
 /*Post-submit thank you page*/
 
-main {
+.post-submit {
   display: flex;    
   background: orange;  
   height: auto;                    /*parent container flexbox setting*/
