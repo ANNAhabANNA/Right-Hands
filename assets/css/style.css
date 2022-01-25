@@ -17,30 +17,31 @@ body {
     display: flex;
     flex-direction: column;                 /*flexbox items positioning*/
     font-family: Lora, sans-serif;
-    color: whitesmoke;
-    font-weight: 300;  
-    margin: 0;   
-    padding: 0;                              /*typography setting*/
+    color: #D6D8DE;
+    font-weight: 300;   
+    font-size: 1.4rem;                     /*typography setting*/
 }
 
 main {
-  flex-grow: 1;                            /*flexbox main items even layout*/
+  flex-grow: 1;                              /*flexbox main items even layout*/
 }
 
-h1, h2, p, i {
-    margin: 20px;                           /*space to breath for text*/
+p, i {
+    margin: 1rem;  
+    padding: 0.5rem;                         /*space to breath for text and icons*/
 }
                  
 .accent-color {
-    color: #ff581a;                        /*accent-color added to string text*/
+    color: #E57254;                        /*accent-color added to string text*/
 }
 
-h1,
-h2  {
+h1, h2, h3  {
     font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 14px;
-    color: whitesmoke;                           /*headings typography*/
+    letter-spacing: 0.85rem;
+    color: #D6D8DE; 
+    font-size: 2rem;   
+    margin: 2rem;                       /*headings typography*/
 }
 
 /* Navigation bar was borrowed from https://codepen.io/biblos/pen/babJvO The borrowed version was resdesigned according to project needs*/
@@ -357,12 +358,6 @@ footer {
   
 .footer-container .footer-left {
   width: 40%;                                       /*left child container sizing*/
-}
-
-.footer-container h3 {
-  color:  whitesmoke;
-  font: normal 2.3rem 'Lora';
-  margin: 0;                                        /*heading typography*/
 }
   
 .footer-container h3 span{ 
