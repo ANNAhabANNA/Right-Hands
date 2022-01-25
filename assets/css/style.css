@@ -27,11 +27,6 @@ main {
   flex-grow: 1;                            /*flexbox main items even layout*/
 }
 
-body p {
-    font-family: Lora, sans-serif;
-    color: whitesmoke;                    /*paragraph typography*/
-}
-
 h1, h2, p, i {
     margin: 20px;                           /*space to breath for text*/
 }
