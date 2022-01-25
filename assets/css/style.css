@@ -13,6 +13,7 @@
 }
 
 body {
+    position:fixed;                         /*debugs html body not filling small screens*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;                 /*flexbox items positioning*/
@@ -178,7 +179,7 @@ h2  {
 
 /*Responsive navigation*/
 
-/*Transition to sandwich menu for devices up to 540px*/
+/*Transition to sandwich menu for devices up to 768px*/
 
 @media only screen and (max-width: 768px) {
   .navbar nav {
