@@ -567,7 +567,6 @@ The borrowed version was restyled according to project needs*/
 
 /*Responsive contact*/
 
-
 @media only screen and (max-width: 820px) {
 
   .contact-container {
@@ -625,7 +624,8 @@ The borrowed version was restyled according to project needs*/
   line-height:0;
   -webkit-column-count:2;                  
   -moz-column-count:2;
-  column-count:2;                         /*two column gallery layout*/
+  column-count:2;   
+  border: 0.25rem solid orange;                       /*two column gallery layout*/
 }
 
 #gallery img {                              
@@ -664,13 +664,25 @@ The borrowed version was restyled according to project needs*/
 /*Services*/
 
 .services-container {
-  display: flex;                           /*parent container turned flexbox*/
+  display: flex;  
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5rem;  
+  border: 0.25rem solid orange;                        /*parent container turned flexbox*/
 }
 
 .services-container-content {
-  flex:1                                   /*child container width ratio*/
+  flex: 1;                                              /*child containers width ration*/
 }
 
 .services-container:first-child {
-  margin-right: 1.25rem;                  /*spacing between child container*/
+  margin-right: 1.25rem;                                /*spacing between child container*/
+}
+
+.services-container-content li {
+  color: #212121;                                     /*paragraphs color in white background*/
+}
+
+.services-container-content h1 {                        /*heading color*/
+  color: orangered;
 }
