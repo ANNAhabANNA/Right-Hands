@@ -106,20 +106,18 @@ h2  {
     flex: 8;                                        /*flexbox text menu items positioning against logo*/                                     
 }
 
+/*Sandwich and round shaped menu button*/
+
 .navbar label {                                      
-  user-select: none;
-  cursor: pointer;
-  padding: 1.75rem 1.25rem;
+  padding: 1.75rem 1.25rem;                         /*navbar padding*/
   position: relative;
   z-index: 3;                                       /*round menu button positioning in responsive format*/
 }
 
 .navbar label i {
-  height: 0.1rem;
   position: relative;
-  width: 1.125rem;
-  font-style: normal;
-  font-weight: normal;                              /*round menu button shaping*/                
+  height: 0.1rem;
+  width: 1.125rem;                                  /*toggle and cross icons size*/                                          
 }
 
 .navbar label i:before,
@@ -138,14 +136,14 @@ h2  {
 }
 
 .navbar label i:before {
-  top: 0.3rem;
+  top: 0.5rem;
 }
 
-.navbar label i:after {                             /*sandwich menu bar positioning*/
-  top: -0.3rem;
+.navbar label i:after {                             /*spacing between sandwich menu bars*/
+  top: -0.5rem;
 }
 
-.navbar #navbar-toggle {                              /*sandwich menu offset against round button menu*/
+.navbar #navbar-toggle {                             /*sandwich menu offset against round button menu*/
   display: none;
 }
 
@@ -198,7 +196,7 @@ h2  {
     margin: 0;
     padding: 1.25rem 0;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;                       /*Toogle menu list items display*/
   }
 
   .navbar nav li {
