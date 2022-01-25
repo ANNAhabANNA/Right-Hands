@@ -310,7 +310,7 @@ h2  {
   }
 
   .hero-outer {
-    max-height: 50vh;
+    max-height: 60vh;
     width: 100vw;                                             /*control of yellow background exposure after animation is over*/
   }                                                         
 }
