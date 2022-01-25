@@ -13,7 +13,6 @@
 }
 
 body {
-    position:fixed;                         /*debugs html body not filling small screens*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;                 /*flexbox items positioning*/
@@ -25,7 +24,7 @@ body {
 }
 
 main {
-  flex-grow: 1;                             /*flexbox main items even layout*/
+  flex-grow: 1;                            /*flexbox main items even layout*/
 }
 
 body p {
@@ -38,7 +37,7 @@ h1, h2, p, i {
 }
                  
 .accent-color {
-    color: #ff581a;                              /*accent-color added to string text*/
+    color: #ff581a;                        /*accent-color added to string text*/
 }
 
 h1,
@@ -61,20 +60,20 @@ h2  {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;                            /*flexbox layout for container holding menu links*/
+    align-items: center;                     /*flexbox layout for container holding menu links*/
     color: whitesmoke;
-    line-height: 2.3rem;                              /*typography*/
+    line-height: 2.3rem;                     /*typography*/
 }
 
 .menu a {
-  text-decoration: none;                    /*menu link styling*/
+  text-decoration: none;                     /*menu link styling*/
 }
 
 .menu a:hover{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  color: orange;                          /*menu link mouse over styling*/
+  color: orange;                           /*menu link mouse over styling*/
 }
 
 .active {
@@ -179,9 +178,9 @@ h2  {
 
 /*Responsive navigation*/
 
-/*Transition to sandwich menu for devices up to 768px*/
+/*Transition to sandwich menu for devices up to 820px*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   .navbar nav {
     visibility: hidden;                          
     opacity: 0;
@@ -207,7 +206,7 @@ h2  {
     text-align: center;
     padding: 1.25rem 0;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 3rem;
     min-height: 3.1rem;
     font-weight: 400;                     /*toggle menu items typography and layout*/
   }
@@ -227,7 +226,7 @@ h2  {
 
 /*Classic menu display for all devices over 768px*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 820px) {
   .navbar nav ul {
     margin: 0;
     padding: 0;
@@ -578,7 +577,7 @@ The borrowed version was restyled according to project needs*/
   }
 
   .contact-container .contact-content {
-    flex-direction: column-reverse;                       /*send us a message is first on screen top to bottom*/
+    flex-direction: column-reverse;                       /*send us a message appears first*/
   }
 
  .contact-container .contact-content .left-side {
@@ -694,11 +693,16 @@ The borrowed version was restyled according to project needs*/
 .services-list {
   list-style: none;
 }
+
 .services-list li::before {
   content:  "•";
   color: orangered;
   font-weight: 900;
   display: inline-block;
   width: 2rem;
-
 }
+
+.services-container {
+  overflow-y: auto;
+}
+
