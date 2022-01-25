@@ -625,7 +625,7 @@ The borrowed version was restyled according to project needs*/
   -webkit-column-count:2;                  
   -moz-column-count:2;
   column-count:2;   
-  border: 0.25rem solid orange;                       /*two column gallery layout*/
+  border: 0.25rem solid orange;            /*two column gallery layout*/
 }
 
 #gallery img {                              
@@ -686,12 +686,12 @@ The borrowed version was restyled according to project needs*/
   margin: 0.5rem;                                   /*paragraphs color in white background*/
 }
 
-.services-container-content h1 {                        /*heading color*/
+.services-container-content h1 {                     /*heading color*/
   color: orangered;
 }
 
 .services-list {
-  list-style: none;
+  list-style: none;                                 /*bullet points deletion*/
 }
 
 .services-list li::before {
@@ -699,19 +699,23 @@ The borrowed version was restyled according to project needs*/
   color: orangered;
   font-weight: 900;
   display: inline-block;
-  width: 2rem;
+  width: 2rem;                                      /*new style bullet points implementation*/
 }
 
 .services-container {
   overflow-y: auto;
 }
 
+/*Responsive services for small screens up to 490px*/
+
 @media  only screen and (max-width: 490px) {
   .services-container {
     margin: 0;
-    padding: 5rem 0;
+    padding: 3.5rem 0;
     justify-content: left;
-    font-size: 0.8rem;
+    font-size: 0.8rem;                             /*adjustments in typography and layout*/
   }
-  
+  .services-container h1 {
+    line-height: 2rem;                            /*heading space between lines*/
+  }
 }
