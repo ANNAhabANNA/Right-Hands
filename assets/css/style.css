@@ -706,3 +706,12 @@ The borrowed version was restyled according to project needs*/
   overflow-y: auto;
 }
 
+@media  only screen and (max-width: 490px) {
+  .services-container {
+    margin: 0;
+    padding: 5rem 0;
+    justify-content: left;
+    font-size: 0.8rem;
+  }
+  
+}
