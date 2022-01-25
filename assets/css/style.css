@@ -667,6 +667,7 @@ The borrowed version was restyled according to project needs*/
   display: flex;  
   flex-wrap: wrap;
   width: 100%;
+  height: 75vh;
   padding: 5rem;  
   border: 0.25rem solid orange;                        /*parent container turned flexbox*/
 }
@@ -680,9 +681,23 @@ The borrowed version was restyled according to project needs*/
 }
 
 .services-container-content li {
-  color: #212121;                                     /*paragraphs color in white background*/
+  color: #212121;  
+  font-size: 1.4rem;
+  margin: 0.5rem;                                   /*paragraphs color in white background*/
 }
 
 .services-container-content h1 {                        /*heading color*/
   color: orangered;
+}
+
+.services-list {
+  list-style: none;
+}
+.services-list li::before {
+  content:  "•";
+  color: orangered;
+  font-weight: 900;
+  display: inline-block;
+  width: 2rem;
+
 }
