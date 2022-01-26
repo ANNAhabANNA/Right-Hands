@@ -105,16 +105,16 @@ h1, h2, h3 {
 /*Sandwich and round shaped menu button*/
 
 .navbar label {  
-  margin: 1rem;                                     /*round button adjustment on right and top of mobile screen*/                       
-  padding: 1.75rem 1.25rem;                         /*navbar padding*/
+  margin: 1rem;                                 /*round button adjustment on right and top of mobile screen*/                       
+  padding: 1.75rem 1.25rem;                     /*navbar padding*/
   position: relative;
-  z-index: 3;                                       /*round menu button overstackssandwich menu in responsive format*/
+  z-index: 3;                                   /*round menu button overstackssandwich menu in responsive format*/
 }
 
 .navbar label i {
   position: relative;
   height: 0.1rem;
-  width: 1.125rem;                                  /*toggle and cross icons size*/                                          
+  width: 1.125rem;                               /*toggle and cross icons size*/                                          
 }
 
 .navbar label i:before,
@@ -122,7 +122,7 @@ h1, h2, h3 {
   content: '';
   height: 100%;
   position: absolute;
-  width: 100%;                                      /*round button and sandwich menu bars and cross design*/
+  width: 100%;                                   /*round button and sandwich menu bars and cross design*/
 }
 
 .navbar label i,
@@ -136,27 +136,27 @@ h1, h2, h3 {
   top: 0.5rem;
 }
 
-.navbar label i:after {                             /*spacing between sandwich menu bars*/
+.navbar label i:after {                           /*spacing between sandwich menu bars*/
   top: -0.5rem;
 }
 
-.navbar #navbar-toggle {                             /*sandwich menu offset against round button menu*/
+.navbar #navbar-toggle {                           /*sandwich menu offset against round button menu*/
   display: none;
 }
 
 .header #navbar-toggle:checked ~ .menu {
   visibility: visible;
-  opacity: 0.99;                                      /*transition from sandwich menu to round button menu*/
+  opacity: 0.99;                                   /*transition from sandwich menu to round button menu*/
 }
 
 .header #navbar-toggle:checked ~ label {
   background: #eb9532;
-  border-radius: 50%;                                 /*round button shape and color*/
+  border-radius: 50%;                               /*round button shape and color*/
 }
 
 
 .header #navbar-toggle:checked ~ label i {
-  background: transparent;                            /*three parallel bars to cross transition*/
+  background: transparent;                          /*three parallel bars transition to cross*/
 }
 
 .header #navbar-toggle:checked ~ label i:before {
@@ -327,7 +327,7 @@ h1, h2, h3 {
 
 footer {
   bottom: 0;                                        /*footer main container fixed positioning to bottom*/
- }
+}
 
 footer p {
   margin: 1.25rem;                                  /*spacing out text*/
@@ -337,7 +337,7 @@ footer p {
   background-color: #333333;
   width: 100vw;
   padding: 2rem 1.8rem;                             /*footer styling, sizing and alignment*/
- }
+}
   
 .footer-container .footer-left,
 .footer-container .footer-center,
@@ -350,7 +350,7 @@ footer p {
   width: 40%;                                       /*left child container ratio*/
 }
   
-.footer-container h3 span{ 
+.footer-container h3 span { 
   color: #eb9532;                                  /*accent color in headings*/               
 }
   
@@ -566,22 +566,22 @@ The borrowed version was restyled according to project needs*/
   }
 
  .contact-container .contact-content .left-side {
-   width: auto;
-   flex-direction: row;
-   margin-top: 2.5rem;
-   justify-content: center;
-   flex-wrap: wrap;                                         /*fontawesome content transition to bottom*/
- }
+    width: auto;
+    flex-direction: row;
+    margin-top: 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;                                         /*fontawesome content transition to bottom*/
+  }
 
  .contact-container .contact-content .left-side::before {
-   display: none;                                           /*divider elimination*/
- }
+    display: none;                                           /*divider elimination*/
+  }
 
  .contact-container .contact-content .right-side {
-   width: auto;
-   margin-top: 5rem;
-   margin-left: 2rem;                                       /*contact form expansion taking left side content transition to bottom*/
- }
+    width: auto;
+    margin-top: 5rem;
+    margin-left: 2rem;                                       /*contact form expansion taking left side content transition to bottom*/
+  }
 }
 
 /*Post-submit thank you page*/
@@ -632,9 +632,9 @@ The borrowed version was restyled according to project needs*/
 
 @media only screen and (max-width: 768px) {
   #gallery {
-   -moz-column-count:    1;
-   -webkit-column-count: 1;
-    column-count:        1;                 /*one column gallery layout*/
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;                 /*one column gallery layout*/
   }
 }
 
@@ -651,29 +651,30 @@ The borrowed version was restyled according to project needs*/
 /*Services*/
 
 .services-container {
-  display: flex;                                        /*parent container turned flexbox*/
-  flex-wrap: wrap;                                      /*parent container extending to wrap its child containers*/
+  display: flex;                                    /*parent container turned flexbox*/
+  flex-wrap: wrap;                                  /*parent container extending to wrap its child containers*/
   width: 100%;
-  height: 75vh;                                         /*size setting*/
-  padding: 3rem;                                        /*air to breath for content inside*/                    
+  height: 75vh;                                     /*size setting*/
+  background-color: #d6d8de;                                        
+  padding: 3rem;                                    /*air to breath for content inside*/                    
 }
 
 .services-container-content {
-  flex: 1;                                              /*child containers width ratio*/
+  flex: 1;                                          /*child containers width ratio*/
 }
 
 .services-container {
-  overflow-y: auto;                                   /*child containers scroll*/
+  overflow-y: auto;                                  /*child containers scroll*/
 } 
 
 .services-container:first-child {
-  margin-right: 1.5rem;                                /*spacing between child containers*/
+  margin-right: 1.5rem;                               /*spacing between child containers*/
 }
 
 .services-container-content li {
   color: #333333;  
   font-size: 1.4rem;
-  margin: 0.5rem;                                      /*services list text color typography*/
+  margin: 0.5rem;                                     /*services list text color typography*/
 }
 
 .services-container-content h1 {                      /*heading color*/
@@ -707,16 +708,15 @@ The borrowed version was restyled according to project needs*/
     margin: 0;
     padding: 3.5rem 0;
     justify-content: left;
-    font-size: 0.7rem;                               /*adjustments in typography and alignment*/
+    font-size: 0.7rem;                             /*adjustments in typography and alignment*/
   }
 
   .services-container h1 {
     font-size: 1.5rem;
-    line-height: 2rem;                               /*heading space between lines*/
+    line-height: 2rem;                             /*heading space between lines*/
   }
 
   .services-container-content {
-    padding: 2rem;
-  }
-  
+    padding: 2rem;                                /*air to breath for content*/
+  }  
 }
