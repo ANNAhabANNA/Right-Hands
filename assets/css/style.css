@@ -17,31 +17,31 @@ body {
     display: flex;
     flex-direction: column;                 /*flexbox items positioning*/
     font-family: Lora, sans-serif;
-    color: #D6D8DE;
-    font-weight: 300;   
-    font-size: 1.4rem;                     /*typography setting*/
+    color: #d6d8de;
+    font-weight: 300;  
+    margin: 0;   
+    padding: 0; 
+    font-size: 1.2rem;                             /*typography setting*/
 }
 
 main {
-  flex-grow: 1;                              /*flexbox main items even layout*/
+  flex-grow: 1;                            /*flexbox main items even layout*/
 }
 
-p, i {
-    margin: 1rem;  
-    padding: 0.5rem;                         /*space to breath for text and icons*/
+i {
+  margin: 2rem;                             /*social links spacing*/      
 }
                  
 .accent-color {
-    color: #E57254;                        /*accent-color added to string text*/
+    color: #e57254;                        /*accent-color added to string text*/
 }
 
-h1, h2, h3  {
+h1, h2, h3 {
     font-family: Source Sans Pro, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.85rem;
-    color: #D6D8DE; 
-    font-size: 2rem;   
-    margin: 2rem;                       /*headings typography*/
+    letter-spacing: 0.9rem;
+    color: #d6d8de;
+    margin: 1.25rem;                         /*headings typography*/
 }
 
 /* Navigation bar was borrowed from https://codepen.io/biblos/pen/babJvO The borrowed version was resdesigned according to project needs*/
@@ -343,8 +343,12 @@ footer {
   bottom: 0;                                        /*footer main container fixed positioning to bottom*/
  }
 
+footer p {
+  margin: 1.25rem; 
+}
+
 .footer-container {
-  background-color: rgba(21, 21, 21, 1);
+  background-color: #333333;
   width: 100vw;
   padding: 2rem 1.8rem;                             /*footer styling, sizing and alignment*/
  }
@@ -370,7 +374,7 @@ footer {
   
 .footer-container .footer-center i {
   color: orange;
-  font-size: 1.5rem;                                /*fontawesome icons styling*/
+  font-size: 1.5rem;                                 /*fontawesome icons styling*/
 }
   
 .footer-container .footer-center p {
