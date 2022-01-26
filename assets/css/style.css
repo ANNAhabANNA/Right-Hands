@@ -1,7 +1,8 @@
 /*General set-up*/
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');               /*font link import*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');            /*font link import*/
 
 *,
 *::before,
@@ -274,13 +275,13 @@ h1, h2, h3 {
 
   @keyframes zoominoutsinglefeatured {
     0% {
-        transform: scale(0.4,0.4);
+      transform: scale(0.4,0.4);
     }
     50% {
-        transform: scale(1.1,1.1);
+      transform: scale(1.1,1.1);
     }
     100% {
-        transform: scale(1,1);                                /*zoom in - zoom out transition between smaller - bigger -normal*/
+      transform: scale(1,1);                                /*zoom in - zoom out transition between smaller - bigger -normal*/
     }    
   }                                                        
 
@@ -297,29 +298,28 @@ h1, h2, h3 {
 
 /*Responsive hero image for devices over 768px*/
 
-@media only screen and (min-width: 768px) {                        
+@media only screen and (min-width: 768px) {                   /*media query*/              
 
   @keyframes zoominoutsinglefeatured {
     0% {
-        transform: scale(0.4,0.4);
+      transform: scale(0.4,0.4);
     }
     50% {
-        transform: scale(0.8,0.8);
+      transform: scale(0.8,0.8);
     }
     100% {
-        transform: scale(1,1);                               /*zoom in - zoom out timing*/
+      transform: scale(1,1);                                  /*zoom in - zoom out transition between smaller - bigger -normal*/
     }  
   }
   
   #hero-image {
-    background-repeat: no-repeat;
-    background-size: contain;                                         
+    background-size: contain;                                 /*debugging of cut image on larger screens*/                                
     animation: zoominoutsinglefeatured 15s;                   /*zoom in - zoom out effect length*/            
   }
 
   .hero-outer {
     max-height: 85vh;
-    width: 100vw;                                             /*control of orange background exposure afer animation is over*/
+    width: 100vw;                                             /*flex container sizing for smaller screens*/
   }
 }
 
@@ -330,7 +330,7 @@ footer {
  }
 
 footer p {
-  margin: 1.25rem; 
+  margin: 1.25rem;                                  /*spacing out text*/
 }
 
 .footer-container {
@@ -347,39 +347,39 @@ footer p {
 }
   
 .footer-container .footer-left {
-  width: 40%;                                       /*left child container sizing*/
+  width: 40%;                                       /*left child container ratio*/
 }
   
 .footer-container h3 span{ 
-  color: orange;                                  /*accent color in headings*/               
+  color: #e57254;                                  /*accent color in headings*/               
 }
   
 .footer-container .footer-center {
-  width: 35%;                                       /*center child container sizing*/
+  width: 35%;                                       /*center child container ratio*/
 }
   
 .footer-container .footer-center i {
-  color: orange;
+  color: #e5c454;
   font-size: 1.5rem;                                 /*fontawesome icons styling*/
 }
   
 .footer-container .footer-center p {
   display: inline-block;
-  color: whitesmoke;                              /*child center container paragraph layout and styling*/
+  color: #d6d8de;                                 /*child center container paragraph layout and styling*/
 }
   
 .footer-container .footer-center p a {
-  color: whitesmoke;
+  color: #d6d8de;
   text-decoration: none;                            /*email link styling*/
 }
 
 .footer-container .footer-center p a:hover {
-  color: orange;
+  color: #e5c454;
   font-size: 1.2rem;                                /*email link mouse over styling*/
 }
   
 .footer-container .footer-right {
-  width: 20%;                                       /*right child container sizing*/
+  width: 20%;                                       /*right child container ratio*/
 }
   
 .footer-container .footer-icons {
@@ -388,26 +388,38 @@ footer p {
   
 .footer-container .footer-icons a {
   font-size: 1.3rem;
-  color: orangered;                               /*social link icons typography*/                     
+  color: #e94f64;                                 /*social link icons typography*/                     
 }
 
 .footer-container .footer-icons a:hover {
   font-size: 1.5rem;
-  color: orange;                                  /*social link icons mouser over styling*/                     
+  color: #e5c454;                                 /*social link icons mouser over styling*/                     
+}
+
+.footer-copyright {
+  color: #e57254;
+  font-size: xx-small;                              /*copyright typography*/
+}
+
+.footer-right h3 {
+  font-family: 'The Nautigal', sans-serif;
+  text-transform: none;
+  font-size: 2.4rem;
+  color: #e94f64;                                 /*company name unique styling*/
 }
   
-/*Responsive footer*/
+/*Responsive footer for devices with screens less than 880px*/
 
 @media only screen and (max-width: 880px) {
 
   .footer-container .footer-left,
   .footer-container .footer-center,
   .footer-container .footer-right {
-    display: block;
-    width: 100%;
+    display: block;                                 /*child containers display in blocks one on top another*/
+    width: 100%;                                    
     margin-bottom: 2.5rem;
-    text-align: center;
-  }                                                 /*child containers responsiveness in smartphones*/
+    text-align: center;                             /*child containers content alignement*/
+  }                                               
 }
 
 /*Contact page*/
