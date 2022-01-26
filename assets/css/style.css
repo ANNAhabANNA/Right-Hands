@@ -482,7 +482,7 @@ The borrowed version was restyled according to project needs*/
   letter-spacing: 0.3rem;
   font-weight: 600;
   text-transform: uppercase;   
-  color: #eb9532;                                  /*left child container topic typography*/
+  color: #b22222;                                  /*left child container topic typography*/
 }
 
 .contact-content .left-side .details .text-one,
@@ -503,7 +503,7 @@ The borrowed version was restyled according to project needs*/
   font-weight: 600;
   letter-spacing: 0.7rem;
   text-transform: uppercase;
-  color: #e94f64;                                  /*right child container content typography*/
+  color: #b22222;                                  /*right child container content typography*/
 }
 
 .right-side p {
