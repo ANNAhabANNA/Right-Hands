@@ -600,12 +600,12 @@ The borrowed version was restyled according to project needs*/
 .thanku-box h1{
   padding: 2rem 2rem;
   color: #b22222;
-  text-align: center;               /*child container typography*/
+  text-align: center;                 /*child container typography*/
 }
  
 .thanku-box p {
   color: #333333;
-  text-align: center;
+  text-align: center;                 /*paragraph alignment and typography*/
 }
 
 /*Portfolio*/
