@@ -429,10 +429,7 @@ The borrowed version was restyled according to project needs*/
 
 .contact {
   background-color: #d6d8de;
-}
-
-.contact-container {
-  width: 100vw;                                     /*parent container full width sizing*/
+  width: 100vw; 
 }
 
 .contact-container .contact-content {
@@ -499,16 +496,15 @@ The borrowed version was restyled according to project needs*/
 .contact-content .right-side .topic-text {
   font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.7rem;
   padding: 2rem;
   text-transform: uppercase;
-  color: orangered;  
-  text-align: center;                                /*right child container topic typography*/
+  color: #e94f64;                                 /*right child container content typography*/
 }
 
 .right-side p {
   color: #333333;
-  padding: 2rem 2rem 2rem 0;
+  padding: 2rem 4rem 2rem 0;                        /*right child container paragraph typography and alignment*/
 }
 
 .right-side .input-box {
