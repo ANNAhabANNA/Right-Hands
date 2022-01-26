@@ -594,12 +594,12 @@ The borrowed version was restyled according to project needs*/
 .post-submit {
   display: flex;    
   background: #d6d8de;  
-  height: auto;                    /*parent container flexbox setting*/
+  min-height: 75vh;                    /*parent container flexbox setting*/
 }
 
 .thanku-box h1{
   padding: 2rem 2rem;
-  color: #e94f64;
+  color: #b22222;
   text-align: center;               /*child container typography*/
 }
  
