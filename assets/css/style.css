@@ -266,7 +266,7 @@ h1, h2, h3 {
   flex-grow: 1;                                                     /*child flex container ratio*/
   height: 100vh;
   width: 100vw;                                                     /*child flex container size*/
-  background: url('../images/hero-image.jpg') no-repeat center;     /*hero image rendering in center without mosaic*/
+  background: url('../images/hero-image.webp') no-repeat center;     /*hero image rendering in center without mosaic*/
 }
 
 /*Responsive hero image for small screen devices smaller than 768px*/
