@@ -37,12 +37,11 @@ i {
   color: #f2784b;                        /*accent-color added to string text*/
 }
 
-h1, h2, h3 {
+h1 {
   font-family: Source Sans Pro, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.9rem;
-  color: #d6d8de;
-  margin: 1.25rem;                         /*headings typography*/
+  letter-spacing: 0.7rem;
+  margin: 1.8rem;                         /*headings typography*/
 }
 
 /*Navigation bar template was borrowed from https://codepen.io/biblos/pen/babJvO and later resdesigned according to project needs*/
@@ -323,7 +322,7 @@ h1, h2, h3 {
   }
 }
 
-/* Responsive footer template was borrowed at https://webdevtrick.com/html-css-footer/ and later redisigned according to project needs*/
+/*Responsive footer template was borrowed at https://webdevtrick.com/html-css-footer/ and later redisigned according to project needs*/
 
 footer {
   bottom: 0;                                        /*footer main container fixed positioning to bottom*/
@@ -331,6 +330,11 @@ footer {
 
 footer p {
   margin: 1.25rem;                                  /*spacing out text*/
+}
+
+footer h1 {
+  color: #eb9532;
+  font-size: 2rem;
 }
 
 .footer-container {
@@ -348,10 +352,6 @@ footer p {
   
 .footer-container .footer-left {
   width: 40%;                                       /*left child container ratio*/
-}
-  
-.footer-container h3 span { 
-  color: #eb9532;                                  /*accent color in headings*/               
 }
   
 .footer-container .footer-center {
@@ -404,6 +404,7 @@ footer p {
 .footer-right h3 {
   font-family: 'The Nautigal', sans-serif;
   text-transform: none;
+  letter-spacing: 0.5rem;
   font-size: 2.4rem;
   color: #e94f64;                                 /*company name unique styling*/
 }
@@ -421,7 +422,7 @@ footer p {
     text-align: center;                             /*child containers content alignement*/
   }  
   
-  .footer-company-about h3 {
+  .footer-company-about h1 {
     padding: 2rem 0;                                 /*extra air to breath for heading*/
   }
 }
