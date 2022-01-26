@@ -103,7 +103,8 @@ h1, h2, h3 {
 
 /*Sandwich and round shaped menu button*/
 
-.navbar label {                         
+.navbar label {  
+  margin: 1rem;                                     /*round button adjustment on right and top of mobile screen*/                       
   padding: 1.75rem 1.25rem;                         /*navbar padding*/
   position: relative;
   z-index: 3;                                       /*round menu button positioning in responsive format*/
