@@ -374,7 +374,7 @@ footer p {
 }
 
 .footer-container .footer-center p a:hover {
-  color: #e5c454;
+  color: #eb9532;
   font-size: 1.2rem;                                /*email link mouse over styling*/
 }
   
@@ -393,7 +393,7 @@ footer p {
 
 .footer-container .footer-icons a:hover {
   font-size: 1.5rem;
-  color: #e5c454;                                 /*social link icons mouser over styling*/                     
+  color: #eb9532;                                 /*social link icons mouser over styling*/                     
 }
 
 .footer-copyright {
