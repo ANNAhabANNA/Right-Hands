@@ -609,16 +609,16 @@ The borrowed version was restyled according to project needs*/
   line-height:0;
   -webkit-column-count:2;                  
   -moz-column-count:2;
-  column-count:2;   
-  border: 0.25rem solid orange;            /*two column gallery layout*/
+  column-count:2; 
+  background-color: #d6d8de;                          /*two column gallery layout*/
 }
 
 #gallery img {                              
   width: 100%;
   height: auto;
-  margin-bottom: 40px; 
+  margin-bottom: 2.5rem; 
   filter: grayscale(100%);                  /*black and white photo effect*/
-  border: 4px solid orange;               /*image styling and layout*/
+  border: 0.39rem solid #eb9532;               /*image styling and layout*/
 }
 
 #gallery img:hover {
