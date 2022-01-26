@@ -662,6 +662,10 @@ The borrowed version was restyled according to project needs*/
   flex: 1;                                              /*child containers width ratio*/
 }
 
+.services-container {
+  overflow-y: auto;                                   /*child containers scroll*/
+} 
+
 .services-container:first-child {
   margin-right: 1.5rem;                                /*spacing between child containers*/
 }
@@ -672,24 +676,28 @@ The borrowed version was restyled according to project needs*/
   margin: 0.5rem;                                      /*services list text color typography*/
 }
 
-.services-container-content h1 {                       /*heading color*/
+.services-container-content h1 {                      /*heading color*/
   color: #f2784b;
+  font-size: 1.7rem;
 }
 
 .services-list {
-  list-style: none;                                 /*bullet points deletion*/
+  list-style: none;                                    /*bullet points deletion*/
 }
 
 .services-list li::before {
   content:  "•";
-  color: orangered;
+  color: #eb9532;
   font-weight: 900;
   display: inline-block;
-  width: 2rem;                                      /*new style bullet points implementation*/
+  width: 2rem;                                        /*new style bullet points implementation*/
 }
 
-.services-container {
-  overflow-y: auto;
+.services-etc {
+  color: #e94f64;
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /*Responsive services for small screens up to 490px*/
@@ -699,9 +707,16 @@ The borrowed version was restyled according to project needs*/
     margin: 0;
     padding: 3.5rem 0;
     justify-content: left;
-    font-size: 0.8rem;                             /*adjustments in typography and layout*/
+    font-size: 0.7rem;                               /*adjustments in typography and alignment*/
   }
+
   .services-container h1 {
-    line-height: 2rem;                            /*heading space between lines*/
+    font-size: 1.5rem;
+    line-height: 2rem;                               /*heading space between lines*/
   }
+
+  .services-container-content {
+    padding: 2rem;
+  }
+  
 }
