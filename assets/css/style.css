@@ -435,8 +435,7 @@ The borrowed version was restyled according to project needs*/
 .contact-container .contact-content {
   display: flex;                                    /*flexbox model setting*/            
   align-items: center;
-  justify-content: space-between;    
-  padding: 1rem;                                    /*space on the sides*/                   
+  justify-content: space-between;                     
 }
 
 .contact-container .contact-content .left-side {
@@ -453,12 +452,12 @@ The borrowed version was restyled according to project needs*/
 .contact-content .left-side::before {
   content: '';                                       /*property to insert generated divider*/
   position: absolute;
-  height: 70%;                                       /*divider height*/
+  height: 90%;                                       /*divider height*/
   width: 0.13rem;
   right: -1rem;                                      /*divider alignment on horizontal axis*/                                
   top: 50%;
   transform: translateY(-50%);                       /*divider alignment centrally along vertical axis*/
-  background: #333333;                             /*divider styling and layout*/
+  background: #f2784b;                             /*divider styling and layout*/
 }
 
 .contact-content .left-side .details { 
@@ -468,7 +467,7 @@ The borrowed version was restyled according to project needs*/
 
 .contact-content .left-side .details i {
   font-size: 1.9rem;
-  color: #333333;
+  color: #f2784b;
   margin-bottom: 0.6rem;                            /*fontawesome typography and alignment*/                 
 }
 
@@ -477,7 +476,7 @@ The borrowed version was restyled according to project needs*/
   padding: 1rem;
   letter-spacing: 0.3rem;
   font-weight: 600;   
-  color: #e94f64;                               /*left child container topic typography*/
+  color: #eb9532;                                  /*left child container topic typography*/
 }
 
 .contact-content .left-side .details .text-one,
@@ -485,7 +484,7 @@ The borrowed version was restyled according to project needs*/
   font-size: 1.3rem;
   letter-spacing: 0.2rem;
   font-weight: 500;
-  color: #333333;                                 /*left child container text typography*/
+  color: #333333;                                   /*left child container text typography*/
 }
 
 .contact-container .contact-content .right-side {
@@ -497,9 +496,8 @@ The borrowed version was restyled according to project needs*/
   font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.7rem;
-  padding: 2rem;
   text-transform: uppercase;
-  color: #e94f64;                                 /*right child container content typography*/
+  color: #e94f64;                                  /*right child container content typography*/
 }
 
 .right-side p {
@@ -515,44 +513,41 @@ The borrowed version was restyled according to project needs*/
 
 .right-side .input-box input {
   height: 95%;
-  width: 95%;
-  font-size: 1rem;
-  background: #F0F1F8;
+  width: 95%;                                       /*size of input fields*/
+  font-size: 1rem;                                  /*font size of input placeholders*/
+  background: #F0F1F8;                            /*input fields color*/
   border-radius: 0.3rem;
   padding: 0 0.9rem;                                /*input fileds styling*/                  
 }
 
 .right-side .message-box {
-  min-height: 7.5rem;                               /*input message box sizing*/
+  min-height: 14rem;                               /*input message box sizing*/
 }
 
 .right-side .button {
   display: inline-block;
-  margin-top: 0.75rem;                              /*input submit button sizing and positioning*/
+  margin-top: 0.75rem;                             /*input submit button sizing and positioning*/
 }
 
 .right-side .button [type="submit"] {
-  color: #fff;
+  color: #d6d8de;
   font-size: 1.1rem;
-  outline: none;
-  border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.4rem;
-  background: #212121;                               /*input submit button styling*/
-
+  background: #333333;                            /*input submit button styling*/
 }
 
 .button [type="submit"]:hover {
-  background: orangered;                             /*input submit button mouse over styling*/
+  background: #eb9532;                            /*input submit button mouse over styling*/
 }
 
 .text-one a {
   text-decoration: none;
-  color: #212121;                                   /*email link styling*/            
+  color: #333333;                                 /*email link styling*/            
 }
 
 .text-one a:hover {
-  color: orangered;                                 /*email link hover effect*/
+  color: #eb9532;                                 /*email link hover effect*/
 }
 
 /*Responsive contact for devices with screens smaller than 820px*/
@@ -570,7 +565,7 @@ The borrowed version was restyled according to project needs*/
   }
 
  .contact-container .contact-content .left-side {
-   width: 100%;
+   width: auto;
    flex-direction: row;
    margin-top: 2.5rem;
    justify-content: center;
@@ -582,7 +577,7 @@ The borrowed version was restyled according to project needs*/
  }
 
  .contact-container .contact-content .right-side {
-   width: 100%;
+   width: auto;
    margin-top: 5rem;
    margin-left: 2rem;                                       /*contact form expansion taking left side content transition to bottom*/
  }
