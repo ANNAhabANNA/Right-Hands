@@ -6,22 +6,22 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;                
-    margin: 0;
-    padding: 0;
-    border: none;                           /*box model setting*/
+  box-sizing: border-box;                
+  margin: 0;
+  padding: 0;
+  border: none;                           /*box model setting*/
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;                 /*flexbox items positioning*/
-    font-family: Lora, sans-serif;
-    color: #d6d8de;
-    font-weight: 300;  
-    margin: 0;   
-    padding: 0; 
-    font-size: 1.2rem;                             /*typography setting*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;                 /*flexbox items positioning*/
+  font-family: Lora, sans-serif;
+  color: #d6d8de;                       /*soft light gray for better contrast*/
+  font-weight: 300;  
+  margin: 0;   
+  padding: 0; 
+  font-size: 1.2rem;                      /*typography setting*/
 }
 
 main {
@@ -33,32 +33,32 @@ i {
 }
                  
 .accent-color {
-    color: #e57254;                        /*accent-color added to string text*/
+  color: #e57254;                        /*accent-color added to string text*/
 }
 
 h1, h2, h3 {
-    font-family: Source Sans Pro, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.9rem;
-    color: #d6d8de;
-    margin: 1.25rem;                         /*headings typography*/
+  font-family: Source Sans Pro, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.9rem;
+  color: #d6d8de;
+  margin: 1.25rem;                         /*headings typography*/
 }
 
-/* Navigation bar was borrowed from https://codepen.io/biblos/pen/babJvO The borrowed version was resdesigned according to project needs*/
+/*Navigation bar was borrowed from https://codepen.io/biblos/pen/babJvO The borrowed version was resdesigned according to project needs*/
 
 .header-fixed {
-    top: 0;
-    z-index: 1;
-    width: 100%;                                    /*parent container positioning against descendant containers*/
-    background-color: rgba(21, 21, 21, 1);
+  top: 0;
+  z-index: 1;
+  width: 100vw;                              /*parent container positioning against descendant containers*/
+  background-color: #333333;                
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;                     /*flexbox layout for container holding menu links*/
-    color: whitesmoke;
-    line-height: 2.3rem;                     /*typography*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;                     /*flexbox layout for container holding menu links*/
+  color: #d6d8de;
+  line-height: 2.3rem;                     /*typography*/
 }
 
 .menu a {
@@ -69,42 +69,41 @@ h1, h2, h3 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  color: orange;                           /*menu link mouse over styling*/
+  color: #e5c454;                           /*menu link mouse over styling*/
 }
 
 .active {
-  border-bottom: 2px solid orange;      
+  border-bottom: 2px solid #e5c454;      
   font-size: 125%;                            /*selected link style*/
 }
 
 #menu-logo {
   height: 5.3rem;
   width: 5.3rem;
-  border-radius: 100%;
-  border: 1px solid #4c4c4c;
-  margin: 1rem 0 0 1.35rem;
-  padding: 0.3rem;                             /*logo shape styling*/
+  border-radius: 100%;                         /*logo round shaping*/
+  border: 0.07rem solid #d6d8de;
+  margin: 0.7rem 0 0 1.35rem;                  /*positioning symmetrically*/
+  padding: 0.2rem;                             /*logo shape styling*/
 }
 
 #menu-logo:hover {
  -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2); 
-  border-color: orange;                 
-  box-shadow: inset 0 0 0 1px orange;             /*mouse over zoom logo style */
+  border-color: #e5c454;                     /*mouse over zoom logo style */
 }
 
 .navbar .logo {
-    flex: 3;                                        /*flexbox item logo positioning against text menu links*/
+  flex: 3;                                     /*flexbox item logo positioning against text menu links*/
 }
 
 .navbar nav {
-    flex: 8;                                        /*flexbox text menu items positioning against logo*/                                     
+  flex: 8;                                     /*flexbox text menu items positioning against logo*/                                     
 }
 
 /*Sandwich and round shaped menu button*/
 
-.navbar label {                                      
+.navbar label {                         
   padding: 1.75rem 1.25rem;                         /*navbar padding*/
   position: relative;
   z-index: 3;                                       /*round menu button positioning in responsive format*/
