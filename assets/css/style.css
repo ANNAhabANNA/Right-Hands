@@ -587,18 +587,18 @@ The borrowed version was restyled according to project needs*/
 
 .post-submit {
   display: flex;    
-  background: orange;  
+  background: #d6d8de;  
   height: auto;                    /*parent container flexbox setting*/
 }
 
 .thanku-box h1{
   padding: 2rem 2rem;
-  color: orangered;
-  text-align: center;                       /*child container typography*/
+  color: #e94f64;
+  text-align: center;               /*child container typography*/
 }
  
 .thanku-box p {
-  color: #212121;
+  color: #333333;
   text-align: center;
 }
 
