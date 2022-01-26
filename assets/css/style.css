@@ -211,7 +211,7 @@ h1, h2, h3 {
   }
 }
 
-/*Classic menu display for all devices over 768px*/
+/*Classic menu display for all devices over 820px*/
 
 @media only screen and (min-width: 820px) {
   .navbar nav ul {
@@ -231,22 +231,18 @@ h1, h2, h3 {
     display: block;
     padding: 0 0.5rem;
     font-size: 1.3rem;
+    line-height: 3.8rem;                             /*block setting for hover over effect*/
     text-transform: uppercase;
-    line-height: 3.75rem;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  .navbar nav li.active {
-    background: #212121;  
+    color: #d6d8de;
+    text-decoration: none;                          /*list items typography and removal of default link color*/
   }
 
   .navbar nav li:hover {
-    background: #212121;
+    background: #656565;                          /*hover over color changing effect for menu items*/
   }
 
   .navbar label {
-    display: none;
+    display: none;                                  /*sandwich menu setting to invisible*/
   }
 }
 
