@@ -401,11 +401,11 @@ footer h1 {
   font-size: 0.8rem;                              /*copyright typography*/
 }
 
-.footer-right h3 {
+footer h2 {
   font-family: 'The Nautigal', sans-serif;
   text-transform: none;
   letter-spacing: 0.5rem;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: #e94f64;                                 /*company name unique styling*/
 }
   
@@ -669,7 +669,7 @@ The borrowed version was restyled according to project needs*/
 }
 
 .services-container {
-  overflow-y: auto;                                  /*child containers scroll*/
+  overflow: auto;                                  /*child containers scroll*/
 } 
 
 .services-container:first-child {
@@ -683,7 +683,7 @@ The borrowed version was restyled according to project needs*/
 }
 
 .services-container-content h1 {                      /*heading color*/
-  color: #f2784b;
+  color: #b22222;
   font-size: 1.7rem;
 }
 
@@ -693,14 +693,14 @@ The borrowed version was restyled according to project needs*/
 
 .services-list li::before {
   content:  "•";
-  color: #eb9532;
+  color: #b22222;
   font-weight: 900;
   display: inline-block;
   width: 2rem;                                        /*new style bullet points implementation*/
 }
 
 .services-etc {
-  color: #e94f64;
+  color: #b22222;
   font-size: larger;
   font-weight: 500;
   font-style: italic;
