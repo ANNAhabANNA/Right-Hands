@@ -34,7 +34,7 @@ i {
 }
                  
 .accent-color {
-  color: #e57254;                        /*accent-color added to string text*/
+  color: #f2784b;                        /*accent-color added to string text*/
 }
 
 h1, h2, h3 {
@@ -57,9 +57,9 @@ h1, h2, h3 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;                     /*flexbox layout for container holding menu links*/
-  color: #d6d8de;
-  line-height: 2.3rem;                     /*typography*/
+  align-items: center;                      
+  line-height: 2.3rem;                      /*flexbox layout for container holding menu links*/
+  border-bottom: 0.2rem solid #e94f64;    /*accent color bottom line on navbar*/
 }
 
 .menu a {
@@ -70,11 +70,11 @@ h1, h2, h3 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  color: #e5c454;                           /*menu link mouse over styling*/
+  color: #e94f64;                           /*menu link mouse over styling*/
 }
 
 .active {
-  border-bottom: 2px solid #e5c454;      
+  border-bottom: 2px solid #eb9532;      
   font-size: 125%;                            /*selected link style*/
 }
 
@@ -82,7 +82,7 @@ h1, h2, h3 {
   height: 5.3rem;
   width: 5.3rem;
   border-radius: 100%;                         /*logo round shaping*/
-  border: 0.07rem solid #d6d8de;
+  border: 0.125rem solid #d6d8de;
   margin: 0.7rem 0 0 1.35rem;                  /*positioning symmetrically*/
   padding: 0.2rem;                             /*logo shape styling*/
 }
@@ -91,7 +91,7 @@ h1, h2, h3 {
  -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2); 
-  border-color: #e5c454;                     /*mouse over zoom logo style */
+  border-color: #e94f64;                     /*mouse over zoom logo style */
 }
 
 .navbar .logo {
@@ -150,7 +150,7 @@ h1, h2, h3 {
 }
 
 .header #navbar-toggle:checked ~ label {
-  background: #333333;
+  background: #eb9532;
   border-radius: 50%;                                 /*round button shape and color*/
 }
 
@@ -351,7 +351,7 @@ footer p {
 }
   
 .footer-container h3 span{ 
-  color: #e57254;                                  /*accent color in headings*/               
+  color: #eb9532;                                  /*accent color in headings*/               
 }
   
 .footer-container .footer-center {
@@ -359,7 +359,7 @@ footer p {
 }
   
 .footer-container .footer-center i {
-  color: #e5c454;
+  color: #eb9532;
   font-size: 1.5rem;                                 /*fontawesome icons styling*/
 }
   
@@ -397,7 +397,7 @@ footer p {
 }
 
 .footer-copyright {
-  color: #e57254;
+  color: #eb9532;
   font-size: xx-small;                              /*copyright typography*/
 }
 
