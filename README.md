@@ -20,10 +20,12 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 * ### Features
     * ### Header
     * ### Footer
-    * ### Hero Image 
+    * ### Hero Section 
     * ### Services
     * ### Portfolio
     * ### Contact
+    * ### Future Features
+    * ### Responsiveness
 * ### Deployment
 * ### Testing
     * ### Validator
@@ -82,57 +84,108 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
         * ### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
 
-        The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
+        * ### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
 
-    -------
-    ## Design
-    -------
+-------
+# Design
+-------
 
-    * ### Colors
+* ## Colors
 
-     The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
+    ### The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
+    
+    <details> 
+    <summary> ** Website color pallette ** </summary>
 
     ![accents colors](assets/readme-img/nav-footer-accent-colors.jpeg)
+    </details>
 
-    The background color of the main section is Hawkes Blue (#D6D8DE) which provides soft and subtle effect for the user eye. The only accent color that had a good accessibility rating against the chosed background color was Burnt Orange (F2784B). Additionally, complimentary font-color Fire Brick (#B22222) was used for continuous accessibility.
+    ### The background color of the main section is Hawkes Blue (#D6D8DE) which provides soft and subtle effect for the user eye. The only accent color that had a good accessibility rating against the chosed background color was Burnt Orange (F2784B). Additionally, complimentary font-color Fire Brick (#B22222) was used for continuous accessibility.
+    
+     <details> 
+    <summary>** Color pallette continued **</summary>
 
     ![accents colors](assets/readme-img/main-section-background-color+accent.jpeg)
+    </details>
 
-    The above color pallette was developed after the first choice of color pallette failed Lighthouse contrast test. The subsequent ideas of color pallette always aimed to improve website experience for visually impaired users. [here](www.colorsafe.co) color compatibility tool was mainly used to achieve the best accessibilty possible.
+    ### The above color pallette was developed after the first choice of color pallette failed Lighthouse contrast test. The subsequent ideas of color pallette always aimed to improve website experience for visually impaired users. [here](www.colorsafe.co) color compatibility tool was mainly used to achieve the best accessibilty possible.
 
-    * ### Fonts
+* ## Fonts
 
-    The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
+    ### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
 
-    Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
+    ### Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
 
-    Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
+    ### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
 
-    These fonts were picked with user accessibility and readability in mind, with a backup on Sans-Sertif for instances when the main fonts may not be available.
+    #### These fonts were picked with user accessibility and readability in mind, with a backup on Sans-Sertif for instances when the main fonts may not be available.
 
+-----------
+ # Features
+-----------
 
-    -----------
-    ## Features
-    -----------
+ ## Header
+![header](assets/readme-img/header-navbar-desktop.jpeg)
 
-    * ### Header
- ![header](assets/readme-img/header-navbar-desktop.jpeg)
+  * ### The navigation bar has a fixed position at the top of each page and sits above all other content. It contains company logo that also acts as a home page redirecting button and changes border line color when hovered over.
+   
+  * ### All links are underlined and highlighted when hovered over so that the user is aware what part of website is being or going to be visited. The underline effect stays on in order to identify currently open page and help the user to establish currently open page. 
 
- * The navigation bar has a fixed position at the top of each page and sits above all other content. It contains company logo that also acts as a home page redirecting button and changes border line color when hovered over.
+  * ### On mobile and tablet view the navigation links collapse into a toggle button for improved user experience. Pressed toggle button reveals stacked navigation links with identical to desktop hover over effect. Navigation links color and background color swap over for more distinguished look assisting the user with navigation as well as the font size increases for the same purpose.
 
- * All links are underlined and highlighted when hovered over so that the user is aware what part of website is being or going to be visited. The underline effect stays on in order to identify currently open page and help the user to establish currently open page. 
+  * ### Navigation bar template was borrowed from [www.codepen.io](https://codepen.io/biblos/pen/babJvO) and later resdesigned according to project needs and design objectives.
 
- * On mobile and tablet view the navigation links collapse into a toggle button for improved user experience. Pressed toggle button reveals stacked navigation links with identical to desktop hover over effect. Navigation links color and background color swap over for more distinguished look assisting the user with navigation as well as the font size increases for the same purpose.
+  <details> 
+    <summary> ** Mobile version ** </summary>
 
-    <img src="assets/readme-img/mobile-toggle-menu.jpg" width="300" height="425">  <img src="assets/readme-img/mobile-toggle-menu-pressed.jpg" width="300" height="425">
+<img src="assets/readme-img/mobile-toggle-menu.jpg" width="300" height="425">  <img src="assets/readme-img/mobile-toggle-menu-pressed.jpg" width="300" height="425">
+    </details>
 
-    * ### Footer
-![header](assets/readme-img/footer-desktop-version.jpeg)
+  ## Footer
+ ![footer](assets/readme-img/footer-desktop-version.jpeg)
 
- * The footer is designed to sit at the bottom of each page beneath all the content.
+ * ### The footer is designed to sit at the bottom of each page beneath all the content.
 
- * The footer contains a brief about section with highlighted competitive features as well as social platform links, contact details and business hours.
+ * ### The footer contains a brief about section with highlighted competitive features as well as social platform links, contact details and business hours.
 
- * Desktop view allows three columns of text display horizoontally, whereas mobile view stacks the columns for better usability.
+ * ### Desktop view allows three columns of text display horizoontally, whereas mobile and tablet view stacks the columns for better usability.
 
-<img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="1025"> 
+ * ### Responsive footer template was borrowed at [www.webdevtrick.com](https://webdevtrick.com/html-css-footer/) and later redisigned according to project needs
+
+    <details> 
+      <summary> ** Mobile version ** </summary>
+
+    <img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="850"> 
+    </details>
+
+## Hero Section
+
+ * ### The hero image takes up the central width of the viewport with padding on the sides in desktop view and full width in mobile/tablet view. It is styled with zoom in and zoom out transform effect for high-impact lasting impression with the user.
+
+ * ### The hero image was provided by the business owner.
+
+## Services
+![services](assets/readme-img/services-desktop-version.jpeg)
+
+ * ### The services page allows the user to look at two  lists of offered services with bulletpoint decoration for better readability.
+
+## Portfolio
+ * ### The main aim of the portfolio is to showcase the company past projects displayed in the column of two in desktop view and as a single column in mobile/tablet view. Initial box-shadow decoration and forward transform effect were eliminated to keep the user focus on the completed projects only.
+
+## Contact
+![services](assets/readme-img/contact-form.jpeg)
+ * ### The contact page consists of a list of contact details on the left and a contact form on the right.
+ * ### The user has to fill the required name, email and message input fields before clicking submit button below. Post submit page appears with confirmation and thank you message for the user to know that the message was delivered and that a reply will be provided in 24 hours.
+
+## Future Features
+ * ### I would like to create a dedicated testimonial page with embedded Google reviews and Facebook widget. 
+ * ### I would like to implement a swipeable carousel for portfolio photos.
+
+## Responsiveness
+ * ### Felxbox model was used to make the website responsive on all devices.
+
+ ------------
+ # Deployment
+ ------------
+
+ 
