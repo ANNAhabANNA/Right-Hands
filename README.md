@@ -246,7 +246,9 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     
     * ### Contact Form
     1. ### Request to fill in input fields shows up if form is submitted not fully completed.
-    2. ###
+    2. ### Request to match the required email format if email field is filled incorrectly.
+    3. ### Thank you message appears after all fields are filled correctly.
+    
 
 
 
