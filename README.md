@@ -204,10 +204,16 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  -----------
 
  ## Validator Testing
-  * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. Both tools were used to test the website by URL and also by direct input. No error were returned for HTML and CSS code submitted.
+  * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. No error were returned for HTML and CSS code submitted.
 
 <details> 
-    <summary> ** Mobile version ** </summary>
+    <summary> ** HTML Validator Result ** </summary>
 
-<img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="850"> 
+![CSS Validator Result](assets/readme-img/W3C-validator-HTML-pass.jpeg)
+    </details>
+
+<details> 
+    <summary> ** CSS Validator Result ** </summary>
+
+![CSS Validator Result](assets/readme-img/W3C-validator-CSS-pass.jpeg)
     </details>
