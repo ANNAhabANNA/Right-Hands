@@ -205,6 +205,13 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
  ## Validator Testing
   * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. No error were returned for HTML and CSS code submitted.
+  * ## Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
+<details> 
+    <summary> ** Lighthouse Testing Result ** </summary>
+
+![Lighthouse Testing](assets/readme-img/lighthouse-testing.jpeg)
+    </details>
+
 
 <details> 
     <summary> ** HTML Validator Result ** </summary>
@@ -219,10 +226,27 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     </details>
 
  ## Manual Testing
-  * ### The website was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested to ensure functionality was not impacted. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops. Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
+  * ### The website was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested to ensure functionality was not impacted. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops. 
 
-  <details> 
-    <summary> ** CSS Validator Result ** </summary>
+    * ### Navigation Bar
+    1. ### When the company logo is clicked it takes the user to homepage (index.html) from all pages.
+    2. ### Each menu link brings the user to the relevant page when clicked.
+    3. ### Toggle menu appears for sizes less tha 820px.
+    4. ### Round button with stacked menu links appears after toggle menu is clicked.
+    5. ### Navigation bar stays fixed on the top of the browser on all devices.
+    6. ### Tested on various browsers and mobiles.
 
-![CSS Validator Result](assets/readme-img/W3C-validator-CSS-pass.jpeg)
-    </details>
+    * ### Footer
+    1. ### Appears when pages are scrolled down.
+    2. ### All social media links open in the new tab redirecting to the relevant social media websites.
+    3. ### Tested on various browsers and mobiles.
+
+    * ### Hamburger Menu
+         ### Each link redirects to the relevant page when clicked.
+    
+    * ### Contact Form
+    1. ### Request to fill in input fields shows up if form is submitted not fully completed.
+    2. ###
+
+
+
