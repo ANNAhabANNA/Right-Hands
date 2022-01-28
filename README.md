@@ -19,11 +19,11 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     * ### Fonts
 * ### Features
     * ### Header
+    * ### Footer
     * ### Hero Image 
     * ### Services
     * ### Portfolio
     * ### Contact
-    * ### Footer
 * ### Deployment
 * ### Testing
     * ### Validator
@@ -90,7 +90,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     * ### Colors
 
-    The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
+     The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
 
     ![accents colors](assets/readme-img/nav-footer-accent-colors.jpeg)
 
@@ -98,7 +98,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     ![accents colors](assets/readme-img/main-section-background-color+accent.jpeg)
 
-    The above color pallette was developed after the first choice of color pallette failed Lighthouse contrast test. The subsequent ideas of color pallette always aimed to improve website experience for visually impaired users.
+    The above color pallette was developed after the first choice of color pallette failed Lighthouse contrast test. The subsequent ideas of color pallette always aimed to improve website experience for visually impaired users. [here](www.colorsafe.co) color compatibility tool was mainly used to achieve the best accessibilty possible.
 
     * ### Fonts
 
@@ -109,15 +109,30 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
 
     These fonts were picked with user accessibility and readability in mind, with a backup on Sans-Sertif for instances when the main fonts may not be available.
-    
-     
 
 
+    -----------
+    ## Features
+    -----------
 
+    * ### Header
+ ![header](assets/readme-img/header-navbar-desktop.jpeg)
 
+ * The navigation bar has a fixed position at the top of each page and sits above all other content. It contains company logo that also acts as a home page redirecting button and changes border line color when hovered over.
 
-    
+ * All links are underlined and highlighted when hovered over so that the user is aware what part of website is being or going to be visited. The underline effect stays on in order to identify currently open page and help the user to establish currently open page. 
 
+ * On mobile and tablet view the navigation links collapse into a toggle button for improved user experience. Pressed toggle button reveals stacked navigation links with identical to desktop hover over effect. Navigation links color and background color swap over for more distinguished look assisting the user with navigation as well as the font size increases for the same purpose.
 
+    <img src="assets/readme-img/mobile-toggle-menu.jpg" width="300" height="425">  <img src="assets/readme-img/mobile-toggle-menu-pressed.jpg" width="300" height="425">
 
+    * ### Footer
+![header](assets/readme-img/footer-desktop-version.jpeg)
 
+ * The footer is designed to sit at the bottom of each page beneath all the content.
+
+ * The footer contains a brief about section with highlighted competitive features as well as social platform links, contact details and business hours.
+
+ * Desktop view allows three columns of text display horizoontally, whereas mobile view stacks the columns for better usability.
+
+<img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="1025"> 
