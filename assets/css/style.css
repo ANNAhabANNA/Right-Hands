@@ -614,15 +614,8 @@ The borrowed version was restyled according to project needs*/
 #gallery img {                              
   width: 100%;
   height: auto;
-  margin-bottom: 2.5rem;                                /*image alignment and sizing*/
-  filter: grayscale(100%);                              /*black and white photo effect*/
-  box-shadow: rgba(233, 79, 100, 0.95) 0px 5px 15px;  /*box-shadow effect*/                 
-  border: 0.39rem solid #eb9532;                      /*image styling*/
-}
-
-#gallery img:hover {
-  filter:none;                              /*black and white effect elimination on hover*/
-  transform: scale(1.1)                     /*additional transform animation on hover*/                       
+  margin-bottom: 2.5rem;                                /*image alignment and sizing*/                
+  border: 0.2rem solid #eb9532;                      /*image styling*/
 }
 
 /*Responsive portfolio for small screens up to 768px*/
