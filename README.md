@@ -217,3 +217,12 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
 ![CSS Validator Result](assets/readme-img/W3C-validator-CSS-pass.jpeg)
     </details>
+
+ ## Manual Testing
+  * ### The website was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested to ensure functionality was not impacted. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops. Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
+
+  <details> 
+    <summary> ** CSS Validator Result ** </summary>
+
+![CSS Validator Result](assets/readme-img/W3C-validator-CSS-pass.jpeg)
+    </details>
