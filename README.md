@@ -5,9 +5,10 @@ This website was created as a first portfolio project for Code Institute's Diplo
 
 The website can be found [here](https://annahabanna.github.io/right-hands/index.html).
 
-## Table of Content
+ -----------------
+# Table of Content
+ -----------------
 
--------
 
 * ### UX and UI
     * ### Site Owner Goals
@@ -28,8 +29,8 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     * ### Responsiveness
 * ### Deployment
 * ### Testing
-    * ### Validator
-    * ### Functionality Testing
+    * ### Validator Testing
+    * ### Manual Testing
 * ### Credits
     * ### Code
     * ### Content
@@ -37,9 +38,11 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     * ### Images
     * ### Acknowledgement
 
------
-## User UX and UI
------
+ ----------------
+# User UX and UI
+ ----------------
+ 
+
 * ### Site Owner Goals
 
     * ### The goals of the site owner are following:
@@ -86,9 +89,10 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
         * ### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
 
--------
+ -------
 # Design
--------
+ -------
+
 
 * ## Colors
 
@@ -120,9 +124,10 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     #### These fonts were picked with user accessibility and readability in mind, with a backup on Sans-Sertif for instances when the main fonts may not be available.
 
------------
+ -----------
  # Features
------------
+ -----------
+
 
  ## Header
 ![header](assets/readme-img/header-navbar-desktop.jpeg)
@@ -188,4 +193,21 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  # Deployment
  ------------
 
- 
+ ### This project was developed using GitPod, pushed to GitHub and deployed to GitHub Pages using the following steps:
+  1. ### Log in to GitHub and locate the website creator GitHub Repository ANNAhabANNA/right-hands
+  2. ### At the top on the right click Settings, scroll down to GitHub Pages and click to select
+  3. ### The website then gets built from the Main branch by default
+  4. ### The deployed website link [https://annahabanna.github.io/right-hands/](https://annahabanna.github.io/right-hands/) is then displayed on the top of page.
+
+ -----------
+ # Testing
+ -----------
+
+ ## Validator Testing
+  * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. Both tools were used to test the website by URL and also by direct input. No error were returned for HTML and CSS code submitted.
+
+<details> 
+    <summary> ** Mobile version ** </summary>
+
+<img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="850"> 
+    </details>
