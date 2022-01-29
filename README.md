@@ -252,6 +252,12 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 * ### During coding navigation bar and footer started to hide main content. Tutor Support helped me with debugging. Solution required to set body element to display: flex with min-height at 100vh, flex-direction: column and margin: 0. Then wrap main content into main tag and flex-grow property to one. Lastly footer position: fixed had to be removed.
 * ### During coding services container did not scroll and was half hidden by footer. This was fixed by adding overflow: auto to class services-container.
 * ### During testing email input did not validate the correct format of input. This was fixed by addiing label tag with attribute for="email".
+* ### Right hand side gap in the content area of each page remains bugged and will be solved in the later stages of the course.
+  <details> 
+    <summary> ** Unsolved Bug ** </summary>
+
+  ![Lighthouse Testing](assets/readme-img/side-gap-bug.jpeg)
+   </details>
 
  --------
 # Credits
