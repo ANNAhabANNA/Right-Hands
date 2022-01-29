@@ -115,13 +115,13 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
  * ## Fonts
 
-    #### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
+    ### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
 
-    #### Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
+    ### Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
 
-    #### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
+    ### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
 
-    #### These fonts were picked with user accessibility and readability in mind, with a backup on Serif for Lora, Sans-Serif for Source Sans Pro and Cursive for The Nautigal for instances when the main fonts may not be available.
+    ### These fonts were picked with user accessibility and readability in mind, with a backup on Serif for Lora, Sans-Serif for Source Sans Pro and Cursive for The Nautigal for instances when the main fonts may not be available.
 
 -----------
 # Features
