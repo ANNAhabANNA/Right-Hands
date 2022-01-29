@@ -162,6 +162,11 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  * ### The hero image takes up the central width of the viewport with padding on the sides in desktop view and full width in mobile/tablet view. It is styled with zoom in transform effect for high-impact lasting impression with the user.
 
  * ### The hero image was provided by the business owner.
+ <details> 
+    <summary> ** Hero Image ** </summary>
+
+![HeroImage](assets/readme-img/hero-image-home-page.jpeg)
+    </details>
 
 ## Services
 ![services](assets/readme-img/services-desktop-version.jpeg)
