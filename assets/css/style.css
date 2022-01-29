@@ -276,13 +276,13 @@ h1 {
       transform: scale(0.4,0.4);
     }
     100% {
-      transform: scale(1,1);                                /*zoom in - zoom out transition between smaller - bigger -normal*/
+      transform: scale(1,1);                                /*zoom in effect*/
     }    
   }                                                        
 
   #hero-image {
     background-size: contain;                                 /*debugging of cut image on smaller screens*/                                                          
-    animation: zoominoutsinglefeatured 5s;                   /*zoom in - zoom out effect length*/        
+    animation: zoominoutsinglefeatured 5s;                   /*zoom in  effect length*/        
   }
 
   .hero-outer {
@@ -300,13 +300,13 @@ h1 {
       transform: scale(0.4,0.4);
     }
     100% {
-      transform: scale(1,1);                                  /*zoom in - zoom out transition between smaller - bigger -normal*/
+      transform: scale(1,1);                                  /*zoom in effect*/
     }  
   }
   
   #hero-image {
     background-size: contain;                                 /*debugging of cut image on larger screens*/                                
-    animation: zoominoutsinglefeatured 5s;                   /*zoom in - zoom out effect length*/            
+    animation: zoominoutsinglefeatured 5s;                   /*zoom in effect*/            
   }
 
   .hero-outer {
