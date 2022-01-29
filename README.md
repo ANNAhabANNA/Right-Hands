@@ -43,9 +43,9 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 # User UX and UI
  ----------------
 
-* ## Site Owner Goals
+## Site Owner Goals
 
-   * ### The goals of the site owner are following:
+   ### The goals of the site owner are following:
 
    * #### to inform the user about the type of services the company offers and to briefly introduce itself
 
@@ -57,11 +57,9 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
      * #### to implement web design that is simple to navigate for elderly users
 
-* ## User Stories
+## User Stories
 
-    * ### First Time Visitor Goals
-
-    * #### The first time user goals are following:
+   ### First Time Visitor Goals 
             
     * #### to easily research what services are offered
 
@@ -73,8 +71,8 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     * #### to find social platform links including Facebook and Instagram
     
-    * ### Returning visitor goals
-
+  ### Returning visitor goals
+    
     * #### The returning visitor goals are following:
 
     * #### to access the website on any chosen device
@@ -83,7 +81,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     * #### to be able to find out the company business hours
 
-    * ### Wireframes
+ ## Wireframes
 
     * #### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
 
