@@ -60,32 +60,30 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 ## User Stories
 
    ### First Time Visitor Goals 
-            
-    * #### to easily research what services are offered
+  * #### to easily research what services are offered
+  * #### to easily navigate around the website
 
-    * #### to easily navigate around the website
+ * #### to look at photos of previously completed projects
 
-    * #### to look at photos of previously completed projects
+  * #### to be able to contact the business owner for a quote
 
-    * #### to be able to contact the business owner for a quote
-
-    * #### to find social platform links including Facebook and Instagram
+ * #### to find social platform links including Facebook and Instagram
     
   ### Returning visitor goals
     
-    * #### The returning visitor goals are following:
+* #### The returning visitor goals are following:
 
-    * #### to access the website on any chosen device
+* #### to access the website on any chosen device
 
-    * #### to be able to easily navigate to different parts of website 
+* #### to be able to easily navigate to different parts of website 
 
-    * #### to be able to find out the company business hours
+* #### to be able to find out the company business hours
 
  ## Wireframes
 
-    * #### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
+ * #### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
 
-    * #### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
+ * #### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
 
  -------
 # Design
