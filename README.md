@@ -198,7 +198,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  -----------
 
  ## Validator Testing
-  * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. No error were returned for HTML and CSS code submitted.
+  * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. No errors were returned for submitted HTML and CSS code.
   * ### Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
 <details> 
     <summary> ** Lighthouse Testing Result ** </summary>
