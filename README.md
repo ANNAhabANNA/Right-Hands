@@ -10,15 +10,15 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  ------------------
 
 
-* # UX and UI
+* ## UX and UI
     * ### Site Owner Goals
     * ### User Stories
     * ### Wireframes
-* # Design
+* ## Design
     * ### Imagery
     * ### Colors
     * ### Fonts
-* # Features
+* ## Features
     * ### Header
     * ### Footer
     * ### Hero Section 
@@ -27,12 +27,12 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     * ### Contact
     * ### Future Features
     * ### Responsiveness
-* # Deployment
-* # Testing
+* ## Deployment
+* ## Testing
     * ### Validator Testing
     * ### Manual Testing
     * ### Bugs
-* # Credits
+* ## Credits
     * ### Languages
     * ### Frameworks, Libraries and Tools
     * ### Content
@@ -43,57 +43,57 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 # User UX and UI
  ----------------
 
-* ### Site Owner Goals
+* ## Site Owner Goals
 
     * ### The goals of the site owner are following:
 
-        * ### to inform the user about the type of services the company offers and to briefly introduce itself
+          * #### to inform the user about the type of services the company offers and to briefly introduce itself
 
-        * ### to provide the user with an option to get in touch and find business contact details including social links
+          * ####  to provide the user with an option to get in touch and find business contact details including social links
 
-        * ### to showcase the user the previous projects completed by company
+          * #### to showcase the user the previous projects completed by company
 
-        * ### to instill memorable company image and logo
+          * #### to instill memorable company image and logo
 
-        * ### to implement web design that is simple to navigate for elderly users
+          * #### to implement web design that is simple to navigate for elderly users
 
-* ### User Stories
+* ## User Stories
 
     * ### First Time Visitor Goals
 
-        * ### The first time user goals are following:
+            * #### The first time user goals are following:
             
-            * ### to easily research what services are offered
+            * #### to easily research what services are offered
 
-            * ### to easily navigate around the website
+            * #### to easily navigate around the website
 
-            * ### to look at photos of previously completed projects
+            * #### to look at photos of previously completed projects
 
-            * ### to be able to contact the business owner for a quote
+            * #### to be able to contact the business owner for a quote
 
-            * ### to find social platform links including Facebook and Instagram
+            * #### to find social platform links including Facebook and Instagram
     
     * ### Returning visitor goals
 
-        * ### The returning visitor goals are following:
+            * #### The returning visitor goals are following:
 
-            * ### to access the website on any chosen device
+            * #### to access the website on any chosen device
 
-            * ### to be able to easily navigate to different parts of website 
+            * #### to be able to easily navigate to different parts of website 
 
-            * ### to be able to find out the company business hours
+            * #### to be able to find out the company business hours
 
     * ### Wireframes
 
-        * ### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
+          * #### The wireframes for the website were creted using Figma where each page was drawn separately for both desktop and mobile view. Tablet version of the website was designed to repeat the mobile view.
 
-        * ### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
+          * #### The directory containing the wireframe images can be found [here](assets/readme-img/wireframe).
 
  -------
 # Design
  -------
 
-* ## Colors
+ * ## Colors
 
     ### The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact, accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
     
@@ -115,11 +115,11 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
  * ## Fonts
 
-    ### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
+    #### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
 
-    ### Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
+    #### Source Sans Pro serves as a heading font style and carries over the website minimalistic theme along with tradesman vibe of business.
 
-    ### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
+    #### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
 
     #### These fonts were picked with user accessibility and readability in mind, with a backup on Serif for Lora, Sans-Serif for Source Sans Pro and Cursive for The Nautigal for instances when the main fonts may not be available.
 
@@ -192,7 +192,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  # Deployment
  ------------
 
- ### This project was developed using GitPod, pushed to GitHub and deployed to GitHub Pages using the following steps:
+ ## This project was developed using GitPod, pushed to GitHub and deployed to GitHub Pages using the following steps:
   1. ### Log in to GitHub and locate the website creator GitHub Repository ANNAhabANNA/right-hands
   2. ### At the top on the right click Settings, scroll down to GitHub Pages and click to select
   3. ### The website then gets built from the Main branch by default
@@ -204,7 +204,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
  ## Validator Testing
   * ### The website was tested using the tools of World Wide Web Consortium (also known as W3C). The above mentioned tools are the Markup Validation Service and the CSS Validation Service. No error were returned for HTML and CSS code submitted.
-  * ## Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
+  * ### Continuous testing was run using Lighthouse within Google Chrome to verify performance and accessibility standards were met and to ensure best practices were followed.
 <details> 
     <summary> ** Lighthouse Testing Result ** </summary>
 
@@ -227,26 +227,26 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
  ## Manual Testing
   * ### The website was tested manually across a range of devices to ensure all links and styling work correctly and to ensure responsiveness across a range of devices. All features on the page were tested to ensure functionality was not impacted. Testing was carried out on multiple browsers such as Google Chrome, Microsoft Edge, Mozilla Firefox, Safari and Opera. Testing was carried out on an Apple iPhone, Apple iPhone 13, Samsung Galaxy S20 FE, Samsung Galaxy A51, Apple iPad Pro & Windows 10 Desktops. 
 
-    * ### Navigation Bar
-    1. ### When the company logo is clicked it takes the user to homepage (index.html) from all pages.
-    2. ### Each menu link brings the user to the relevant page when clicked.
-    3. ### Toggle menu appears for sizes less tha 820px.
-    4. ### Round button with stacked menu links appears after toggle menu is clicked.
-    5. ### Navigation bar stays fixed on the top of the browser on all devices.
-    6. ### Tested on various browsers and mobiles.
+    #### Navigation Bar
+    1. #### When the company logo is clicked it takes the user to homepage (index.html) from all pages.
+    2. #### Each menu link brings the user to the relevant page when clicked.
+    3. #### Toggle menu appears for sizes less tha 820px.
+    4. #### Round button with stacked menu links appears after toggle menu is clicked.
+    5. #### Navigation bar stays fixed on the top of the browser on all devices.
+    6. #### Tested on various browsers and mobiles.
 
-    * ### Footer
-    1. ### Appears when pages are scrolled down.
-    2. ### All social media links open in the new tab redirecting to the relevant social media websites.
-    3. ### Tested on various browsers and mobiles.
+    ### Footer
+    1. #### Appears when pages are scrolled down.
+    2. #### All social media links open in the new tab redirecting to the relevant social media websites.
+    3. #### Tested on various browsers and mobiles.
 
-    * ### Hamburger Menu
-         ### Each link redirects to the relevant page when clicked.
+    ### Hamburger Menu
+         #### Each link redirects to the relevant page when clicked.
     
-    * ### Contact Form
-    1. ### Request to fill in input fields shows up if form is submitted not fully completed.
-    2. ### Request to match the required email format if email field is filled incorrectly.
-    3. ### Thank you message appears after all fields are filled correctly.
+    ### Contact Form
+    1. #### Request to fill in input fields shows up if form is submitted not fully completed.
+    2. #### Request to match the required email format if email field is filled incorrectly.
+    3. #### Thank you message appears after all fields are filled correctly.
  
  ## Bugs
 * ### During coding navigation bar and footer started to hide main content. Tutor Support helped me with debugging. Solution required to set body element to display: flex with min-height at 100vh, flex-direction: column and margin: 0. Then wrap main content into main tag and flex-grow property to one. Lastly footer position: fixed had to be removed.
