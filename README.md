@@ -1,24 +1,24 @@
 # Right Hands Website for Local Handyman Business
 ![ami.responsivedesign.is](assets/readme-img/am-i-responsive.jpeg)
 
-This website was created as a first portfolio project for Code Institute's Diploma in Web Application Development. Right Hands Ltd is a real local handyman business that I helped to build its online presence back in 2019 by setting and maintaining its Facebook page and Google My Business. At the time I was not yet skilled to build a well-rounded responsive website in the timeframe set by the business owner. That is why I offered to construct a website by using website builder platform at www.blacknight.com and created required content and imagery. I am excited about being able now to create fully functional website and share my work with fellow coders. 
+This website was created as a first portfolio project for Code Institute Diploma in Web Development. Right Hands Ltd is a real local handyman business that asked my help in building its online presence back in 2020 by setting and maintaining Facebook page and Google My Business. At the time I was not yet skilled to create a well-rounded responsive website in the timeframe set by the business owner. That is why I offered to construct a website by using website builder platform at www.blacknight.com and assisted with content making process. Today I am excited about being able to create fully functional website and share my work with fellow coders. 
 
 The website can be found [here](https://annahabanna.github.io/right-hands/index.html).
 
- -----------------
-# Table of Content
- -----------------
+ ------------------
+# Table of Contents
+ ------------------
 
 
-* ### UX and UI
+* # UX and UI
     * ### Site Owner Goals
     * ### User Stories
     * ### Wireframes
-* ### Design
+* # Design
     * ### Imagery
     * ### Colors
     * ### Fonts
-* ### Features
+* # Features
     * ### Header
     * ### Footer
     * ### Hero Section 
@@ -27,22 +27,21 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     * ### Contact
     * ### Future Features
     * ### Responsiveness
-* ### Deployment
-* ### Testing
+* # Deployment
+* # Testing
     * ### Validator Testing
     * ### Manual Testing
     * ### Bugs
-* ### Credits
-    * ### Code
+* # Credits
+    * ### Languages
+    * ### Frameworks, Libraries and Tools
     * ### Content
-    * ### Layout
     * ### Images
     * ### Acknowledgement
 
  ----------------
 # User UX and UI
  ----------------
- 
 
 * ### Site Owner Goals
 
@@ -52,7 +51,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
         * ### to provide the user with an option to get in touch and find business contact details including social links
 
-        * ### to showcase the user the previous projects completed by business
+        * ### to showcase the user the previous projects completed by company
 
         * ### to instill memorable company image and logo
 
@@ -78,7 +77,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
         * ### The returning visitor goals are following:
 
-            * ### to access it easily on my chosen device
+            * ### to access the website on any chosen device
 
             * ### to be able to easily navigate to different parts of website 
 
@@ -94,10 +93,9 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 # Design
  -------
 
-
 * ## Colors
 
-    ### The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
+    ### The website colors were chosen to match the original website [www.righthands.ie](www.righthands.ie) as the business owner was content with its minimalistic color pallette and black-and-white theme with occassional gray. As my offered web design was small-scale and compact, accents colors were introduced to make the user experience more memorable and likable. The main accent color of Sun (#EB9532) was picked to mimic the yellow element of hero image with additional accents of Burnt Orange (F2784B) and Cranberry (E94F64) that were mainly used in navigation bar and footer design. The picked accents colors are well accessible with great contrast ratio against the background color of Night Rider (#333333) in navigation bar and footer with the Hawkes Blue(#D6D8DE) as font color.
     
     <details> 
     <summary> ** Website color pallette ** </summary>
@@ -115,7 +113,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     ### The above color pallette was developed after the first choice of color pallette failed Lighthouse contrast test. The subsequent ideas of color pallette always aimed to improve website experience for visually impaired users. [here](www.colorsafe.co) color compatibility tool was mainly used to achieve the best accessibilty possible.
 
-* ## Fonts
+ * ## Fonts
 
     ### The fonts Lora and Source Sans Pro were chosen from available options from Google Fonts database. The Nautigal handwriting font style was added for company name in the footer for more aesthetic look and as an offset to the strict style of the main fonts.
 
@@ -123,11 +121,11 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
     ### Lora compliments the heading font and gives paragraphs a more natural reading rhythm.
 
-    #### These fonts were picked with user accessibility and readability in mind, with a backup on Sans-Sertif for instances when the main fonts may not be available.
+    #### These fonts were picked with user accessibility and readability in mind, with a backup on Serif for Lora, Sans-Serif for Source Sans Pro and Cursive for The Nautigal for instances when the main fonts may not be available.
 
- -----------
- # Features
- -----------
+-----------
+# Features
+-----------
 
 
  ## Header
@@ -154,7 +152,7 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
  * ### The footer contains a brief about section with highlighted competitive features as well as social platform links, contact details and business hours.
 
- * ### Desktop view allows three columns of text display horizoontally, whereas mobile and tablet view stacks the columns for better usability.
+ * ### Desktop view allows three columns of text display horizoontally, whereas mobile and tablet view stack the columns for better usability.
 
  * ### Responsive footer template was borrowed at [www.webdevtrick.com](https://webdevtrick.com/html-css-footer/) and later redisigned according to project needs
 
@@ -164,9 +162,9 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     <img src="assets/readme-img/footer-mobile-version.jpg" width="350" height="850"> 
     </details>
 
-## Hero Section
+ ## Hero Section
 
- * ### The hero image takes up the central width of the viewport with padding on the sides in desktop view and full width in mobile/tablet view. It is styled with zoom in and zoom out transform effect for high-impact lasting impression with the user.
+ * ### The hero image takes up the central width of the viewport with padding on the sides in desktop view and full width in mobile/tablet view. It is styled with zoom in transform effect for high-impact lasting impression with the user.
 
  * ### The hero image was provided by the business owner.
 
@@ -251,14 +249,40 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
     3. ### Thank you message appears after all fields are filled correctly.
  
  ## Bugs
-
- 
+* ### During coding navigation bar and footer started to hide main content. Tutor Support helped me with debugging. Solution required to set body element to display: flex with min-height at 100vh, flex-direction: column and margin: 0. Then wrap main content into main tag and flex-grow property to one. Lastly footer position: fixed had to be removed.
+* ### During coding services container did not scroll and was half hidden by footer. This was fixed by adding overflow: auto to class services-container.
+* ### During testing email input did not validate the correct format of input. This was fixed by addiing label tag with attribute for="email".
 
  --------
 # Credits
  --------
 
- ## 
+ ## Languages
+ * ## [HTML](https://en.wikipedia.org/wiki/HTML5)
+ * ## [CSS](https://en.wikipedia.org/wiki/CSS)
 
+ ## Frameworks, Libraries and Tools
+ * ### Am I Responsive - used to verify responsiveness of website on different devices.
+ * ### Figma - used to generate wireframe images.
+ * ### Chrome Dev Tools - used for overall development and tweaking, including testing responsiveness and performance.
+ * ### Font Awesome - used for social media and contact details icons in the footer and on the contact page.
+ * ### GitHub - used for version control and hosting.
+ * ### Google Fonts - used to import and alter website typography.
+ * ### Slack - used for support and advice from the Code Insitute Community.
+ * ### TinyPNG - used to compress images while maintaining the quality.
+ * ### GitPod - used for automated dev environment
+ * ### W3C - Used for HTML & CSS Validation.
+ * ### Lighthouse - used for testing performance, accessibility and search engine optimization.
+ * ### Color Safe - used for testing color contrast for better accessibility.
+ 
+ ## Images
+ * ### Images are provided by the business owner of Right Hands Ltd.
+
+ ## Content
+ * ### Content was borrowed from original Right Hands Ltd [website](www.righthands.ie) that I created in 2020 using wesite builder constructor at [Blacknight Internet Solutions Ltd](www.blacknight.com).
+
+ ## Acknoweledgment
+ * ### My Mentor Chris Quinn.
+ * ### Code Institute team and community.
 
 
