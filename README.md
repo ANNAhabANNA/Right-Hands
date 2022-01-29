@@ -47,15 +47,15 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
    ### The goals of the site owner are following:
 
-   * #### to inform the user about the type of services the company offers and to briefly introduce itself
+  #### to inform the user about the type of services the company offers and to briefly introduce itself
 
-    * ####  to provide the user with an option to get in touch and find business contact details including social links
+  ####  to provide the user with an option to get in touch and find business contact details including social links
 
-     * #### to showcase the user the previous projects completed by company
+  #### to showcase the user the previous projects completed by company
 
-     * #### to instill memorable company image and logo
+   #### to instill memorable company image and logo
 
-     * #### to implement web design that is simple to navigate for elderly users
+   #### to implement web design that is simple to navigate for elderly users
 
 ## User Stories
 
