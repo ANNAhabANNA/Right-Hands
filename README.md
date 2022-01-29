@@ -1,7 +1,7 @@
 # Right Hands Website for Local Handyman Business
 ![ami.responsivedesign.is](assets/readme-img/am-i-responsive.jpeg)
 
-This website was created as a first portfolio project for Code Institute Diploma in Web Development. Right Hands Ltd is a real local handyman business that asked my help in building its online presence back in 2020 by setting and maintaining Facebook page and Google My Business. At the time I was not yet skilled to create a well-rounded responsive website in the timeframe set by the business owner. That is why I offered to construct a website by using website builder platform at www.blacknight.com and assisted with content making process. Today I am excited about being able to create fully functional website and share my work with fellow coders. 
+This website was created as a first portfolio project for Code Institute Diploma in Web Development. Right Hands Ltd is a real local handyman business that asked my help in building its online presence back in 2020 by setting and maintaining Facebook page and Google My Business. At the time I was not yet skilled to create a well-rounded responsive website in the timeframe set by the business owner. That is why I offered to construct a website by using website builder platform and assisted with content making process. Today I am excited about being able to create fully functional website and share my work with fellow coders. 
 
 The website can be found [here](https://annahabanna.github.io/right-hands/index.html).
 
