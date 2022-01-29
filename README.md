@@ -45,9 +45,8 @@ The website can be found [here](https://annahabanna.github.io/right-hands/index.
 
 ## Site Owner Goals
 
-   ### The goals of the site owner are following:
-
-  #### to inform the user about the type of services the company offers and to briefly introduce itself
+### The goals of the site owner are following:
+* #### to inform the user about the type of services the company offers and to briefly introduce itself
 
   ####  to provide the user with an option to get in touch and find business contact details including social links
 
